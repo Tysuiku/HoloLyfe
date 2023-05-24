@@ -15,5 +15,10 @@
     z-index: -1;
   }
   
+  #HoloHead{
+    position: fixed;
+    width: 20vw;
+    height: auto;
+  }
 
   
