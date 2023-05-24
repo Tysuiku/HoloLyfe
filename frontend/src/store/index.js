@@ -1,8 +1,12 @@
 import { createStore, combineReducers, applyMiddleware, compose } from "redux";
 import thunk from "redux-thunk";
 
-// Empty rootReducer for now
-const rootReducer = combineReducers({});
+// Dummy reducer
+const dummyReducer = (state = {}, action) => state;
+
+const rootReducer = combineReducers({
+  dummy: dummyReducer,
+});
 
 let enhancer;
 
