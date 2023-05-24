@@ -1,6 +1,7 @@
 import "./IntroBox.css";
 import SuiseiDance from "./BackgroundVideoHolo.mp4";
 import HoloHead from "./hololiveHead.png";
+import NavBar from "./NavBar";
 
 const Introbox = () => {
   return (
@@ -9,7 +10,15 @@ const Introbox = () => {
         <video autoPlay loop muted>
           <source src={SuiseiDance} type="video/mp4" />
         </video>
-        <img id="HoloHead" src={HoloHead} />
+
+        <div className="NavBarLogoSplit">
+          <div>
+            <img id="HoloHead" src={HoloHead} />
+          </div>
+          <div>
+            <NavBar />
+          </div>
+        </div>
       </div>
     </>
   );

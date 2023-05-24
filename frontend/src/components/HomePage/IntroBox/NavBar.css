@@ -1,0 +1,25 @@
+.NavBarBox{
+    position: fixed;
+    top: 1.35vw;
+    right: 0;
+    background-color: #f9f9fad1 ;
+    color: #2776a1;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 0.6vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    display: flex;
+    gap: 1.5vw;
+    font-size: 1.2vw;
+    font-weight: 550;
+    cursor: pointer;
+}
+
+#NavBarLinks:hover{
+    color: #5ac6fb;
+}
+
+#NavBarLinks.active {
+    color: #5ac6fb;
+}
