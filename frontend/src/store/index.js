@@ -1,11 +1,9 @@
 import { createStore, combineReducers, applyMiddleware, compose } from "redux";
 import thunk from "redux-thunk";
-
-// Dummy reducer
-const dummyReducer = (state = {}, action) => state;
+import vtuberReducer from "./vtuber";
 
 const rootReducer = combineReducers({
-  dummy: dummyReducer,
+  vtuber: vtuberReducer,
 });
 
 let enhancer;
