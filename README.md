@@ -6,3 +6,19 @@ This is a for fun project I all works and content belong to each individual vtub
 ## Screenshots
 
 ![Screenshot](app/screenshots/Hololyfe1.gif)
+
+## Technologies & Libaries Used
+
+    React
+    Redux
+    AWS S3
+    Javascript
+    Ruby on Rails
+    PostgreSQL
+    JSON / Jbuilder
+    HTML
+    CSS
+    Render
+    FontAwesome
+    Swiper
+    Webpack
