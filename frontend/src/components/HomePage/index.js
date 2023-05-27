@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Introbox from "./IntroBox";
+import TalentCarousel from "./TalentCarousel";
 import LoadImage from "./hololiveLoad.png";
 import "./HomePage.css";
 
@@ -24,7 +25,12 @@ const HomePage = () => {
     );
   }
 
-  return <Introbox />;
+  return (
+    <div className="HomePageBox">
+      <Introbox />
+      <TalentCarousel />
+    </div>
+  );
 };
 
 export default HomePage;

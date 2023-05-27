@@ -1,0 +1,78 @@
+#TalentImgBg{
+    position: relative;
+    width: 100%;
+    height: 45.5vw;
+    overflow: hidden;
+}
+
+#TalentImgBg2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+
+#TalentTitleBg{
+    background-color: #ffa0f7;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    height: 10%;
+    width: 91.5%;
+}
+
+#TalentTitleBg h1{
+    position: relative;
+    bottom: 1.05vw;
+    left: 5vw;
+    font-size: 4vw;
+    /* font-family: brandon-grotesque, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic, sans-serif; */
+    color: #063f5c;
+    font-weight: 900;
+    letter-spacing: 0.05em;
+}
+
+#TalentTitleImg{
+    position: relative;
+    top: 5vw;
+    left: 2.2vw;
+}
+
+#TalentTitleImg img{
+    width: 9vw;
+    height: auto;
+}
+
+#TalentSplitterTitle{
+    position: relative;
+    bottom: 2.5vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.swiper {
+    padding-top: 10vw;
+    width: 100%;
+    height: 100%;
+}
+  
+.swiper-slide {
+text-align: center;
+font-size: 18px;
+background: #fff;
+  
+/* Center slide text vertically */
+display: flex;
+justify-content: center;
+align-items: center;
+}
+  
+.swiper-slide img {
+display: block;
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+  
