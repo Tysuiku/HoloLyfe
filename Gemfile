@@ -45,4 +45,5 @@ group :development do
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
   gem "jbuilder", "~> 2.7"
+  gem "rack-cors", require: "rack/cors"
 end

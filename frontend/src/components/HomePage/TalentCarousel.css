@@ -1,3 +1,5 @@
+/* --------------------------------------Background CSS---------------------------------------------- */
+
 #TalentImgBg{
     position: relative;
     width: 100%;
@@ -52,27 +54,445 @@
     flex-direction: column;
 }
 
-.swiper {
-    padding-top: 10vw;
+/* -----------------------------Carousel CSS----------------------------------------- */
+
+.vtuberSwiper {
     width: 100%;
     height: 100%;
+    margin-top: 1vw;
+    /* margin-left: 0.5vw; */
 }
   
-.swiper-slide {
+.vtuberSlide {
 text-align: center;
-font-size: 18px;
-background: #fff;
-  
+font-size: 1.2vw;
+color: white;
 /* Center slide text vertically */
 display: flex;
 justify-content: center;
 align-items: center;
+gap: 1vw;
 }
+
+.vtuberSwiper .swiper-button-next,
+.vtuberSwiper .swiper-button-prev {
+  color: #305276;
+  top: 12vw;
+}
+
+.vtuberSwiper .swiper-button-next {
+  right: 2vw; /* Adjust as needed to increase the gap */
+}
+
+.vtuberSwiper .swiper-button-prev {
+  left: 2vw; /* Adjust as needed to increase the gap */
+}
+
+.vtuberSwiper .swiper-button-next::after,
+.vtuberSwiper .swiper-button-prev::after {
+  content: ""; 
+  display: inline-block;
+  border: 2vw solid transparent;
+}
+
+.vtuberSwiper .swiper-button-next::after {
+  border-left-color: #305276;
+  margin-left: 1vw;
+}
+
+.vtuberSwiper .swiper-button-prev::after {
+  border-right-color: #305276;
+  margin-right: 1vw;
+}
+
+.vtuberSwiper .swiper-button-disabled {
+  display: none; 
+}
+
+
+
+/* -----------------------------Painful Vtuber CSS----------------------------------------- */
+
+#vtuberNameDivider{
+    display: flex;
+}
+
+/* ----------------------------- Vtuber Suisei CSS----------------------------------------- */
+
+#vtuberbg-1{
+    cursor: pointer;
+    margin-top: 1vw;
+    background-color: #50e5f9;
+    border-radius: 20px;
+    width: 14vw;
+    height: 23vw;
+    z-index: -1;
+}
+
+#vtuber-1{
+    position: relative;
+    right: 1.6vw;
+    bottom: 1.1vw;
+    width: 16vw;
+    height: auto;
+}
+
+#vtubername-1{
+    position: relative;
+    right: 10.2vw;
+    bottom: 25vw;
+    transform: rotate(90deg);
+    font-size: 1.3vw;
+}
+
+#vtubername2-1 {
+    position: relative;
+    right: 5.5vw;
+    bottom: 18.5vw;
+    font-size: 2vw;
+    font-weight: bolder;
+    writing-mode: vertical-lr;
+}
+
+#vtuberbg-1:hover #vtubername-1,
+#vtuberbg-1:hover #vtubername2-1 {
+    visibility: visible;
+    opacity: 1;
+}
+
+#vtubername-1,
+#vtubername2-1 {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0.2s, opacity 0.2s linear;
+}
+
+#vtubername2-1 {
+    transition: right 0.2s;
+}
+
+#vtuberbg-1:hover #vtubername2-1 {
+    right: 0;
+}
+
+#vtuberbg-1:hover #vtuber-1 {
+    transform: scale(1.05); 
+    transition: transform 0.2s ease-in-out; 
+  }
   
-.swiper-slide img {
-display: block;
+
+/* ----------------------------- Vtuber Aqua CSS----------------------------------------- */
+
+#vtuberbg-2{
+    cursor: pointer;
+    margin-top: 1vw;
+    background-color: #fea6e9;
+    border-radius: 20px;
+    width: 14vw;
+    height: 23vw;
+    z-index: -1;
+}
+
+#vtuber-2{
+    position: relative;
+    bottom: 1vw;
+    width: 13.25vw;
+    height: auto;
+}
+
+#vtubername-2{
+    position: relative;
+    right: 7.9vw;
+    bottom: 23vw;
+    transform: rotate(90deg);
+    font-size: 2vw;
+}
+
+#vtubername2-2 {
+    position: relative;
+    right: 6vw;
+    bottom: 18vw;
+    writing-mode: vertical-lr;
+    font-size: 2vw;
+    font-weight: bolder;
+}
+
+#vtuberbg-2:hover #vtubername-2,
+#vtuberbg-2:hover #vtubername2-2 {
+    visibility: visible;
+    opacity: 1;
+}
+
+#vtubername-2,
+#vtubername2-2 {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0.2s, opacity 0.2s linear;
+}
+
+#vtubername2-2 {
+    transition: right 0.2s;
+}
+
+#vtuberbg-2:hover #vtubername2-2 {
+    right: 0;
+}
+
+#vtuberbg-2:hover #vtuber-2 {
+    transform: scale(1.05); 
+    transition: transform 0.2s ease-in-out; 
+  }
+
+/* ----------------------------- Vtuber Towa CSS----------------------------------------- */
+
+#vtuberbg-3{
+    cursor: pointer;
+    margin-top: 1vw;
+    background-color: #c9baff;
+    border-radius: 20px;
+    width: 14vw;
+    height: 23vw;
+    z-index: -1;
+}
+
+#vtuber-3{
+    position: relative;
+    bottom: 1.1vw;
+    left: 0.1vw;
+    width: 13.9vw;
+    height: auto;
+}
+
+#vtubername-3{
+    position: relative;
+    bottom: 23.5vw;
+    right: 8.5vw;
+    transform: rotate(90deg);
+    font-size: 1.67vw;
+}
+
+#vtubername2-3 {
+    position: relative;
+    bottom: 18vw;
+    right: 6vw;
+    writing-mode: vertical-lr;
+    font-size: 2.2vw;
+    font-weight: bolder;
+}
+
+#vtuberbg-3:hover #vtubername-3,
+#vtuberbg-3:hover #vtubername2-3 {
+    visibility: visible;
+    opacity: 1;
+}
+
+#vtubername-3,
+#vtubername2-3 {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0.2s, opacity 0.2s linear;
+}
+
+#vtubername2-3 {
+    transition: right 0.2s;
+}
+
+#vtuberbg-3:hover #vtubername2-3 {
+    right: 0;
+}
+
+#vtuberbg-3:hover #vtuber-3 {
+    transform: scale(1.05); 
+    transition: transform 0.2s ease-in-out; 
+  }
+
+/* ----------------------------- Vtuber Chloe CSS----------------------------------------- */
+
+#vtuberbg-4{
+    cursor: pointer;
+    margin-top: 1vw;
+    background-color: #cf4c4a;
+    border-radius: 20px;
+    width: 14vw;
+    height: 23vw;
+    z-index: -1;
+}
+
+#vtuber-4{
+    position: relative;
+    bottom: 1.1vw;
+    width: 14.1vw;
+    height: auto;
+}
+
+#vtubername-4{
+    position: relative;
+    bottom: 25.5vw;
+    right: 10.9vw;
+    transform: rotate(90deg);
+    font-size: 1.55vw;
+}
+
+#vtubername2-4 {
+    position: relative;
+    bottom: 20vw;
+    right: 6vw;
+    writing-mode: vertical-lr;
+    font-size: 2.2vw;
+}
+
+#vtuberbg-4:hover #vtubername-4,
+#vtuberbg-4:hover #vtubername2-4 {
+    visibility: visible;
+    opacity: 1;
+}
+
+#vtubername-4,
+#vtubername2-4 {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0.2s, opacity 0.2s linear;
+}
+
+#vtubername2-4 {
+    transition: right 0.2s;
+}
+
+#vtuberbg-4:hover #vtubername2-4 {
+    right: 0;
+}
+
+#vtuberbg-4:hover #vtuber-4 {
+    transform: scale(1.05); 
+    transition: transform 0.2s ease-in-out; 
+  }
+/* ----------------------------- Vtuber Miko CSS----------------------------------------- */
+
+#vtuberbg-5{
+    cursor: pointer;
+    margin-top: 1vw;
+    background-color:#fe9cb4;
+    border-radius: 20px;
+    width: 14vw;
+    height: 23vw;
+    z-index: -1;
+}
+
+#vtuber-5{
+    position: relative;
+    right: 1vw;
+    bottom: 1vw;
+    width: 17vw;
+    height: auto;
+}
+
+#vtubername-5{
+    position: relative;
+    bottom: 24.5vw;
+    right: 9.9vw;
+    transform: rotate(90deg);
+    font-size: 2vw;
+}
+
+#vtubername2-5 {
+    position: relative;
+    bottom: 19vw;
+    right: 5.5vw;
+    writing-mode: vertical-lr;
+    font-size: 2.4vw;
+}
+
+#vtuberbg-5:hover #vtubername-5,
+#vtuberbg-5:hover #vtubername2-5 {
+    visibility: visible;
+    opacity: 1;
+}
+
+#vtubername-5,
+#vtubername2-5 {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0.2s, opacity 0.2s linear;
+}
+
+#vtubername2-5 {
+    transition: right 0.2s;
+}
+
+#vtuberbg-5:hover #vtubername2-5 {
+    right: 0;
+}
+
+#vtuberbg-5:hover #vtuber-5 {
+    transform: scale(1.05); 
+    transition: transform 0.2s ease-in-out; 
+  }
+
+/* ----------------------------- Vtuber Pekora CSS----------------------------------------- */
+
+#vtuberbg-6{
+    cursor: pointer;
+    margin-top: 1vw;
+    background-color: #88d2ff;
+    border-radius: 20px;
+    width: 14vw;
+    height: 23vw;
+    z-index: -1;
+}
+
+#vtuber-6{
+    position: relative;
+    bottom: 1vw;
+    width: 12.4vw;
+    height: auto;
+}
+
+#vtubername-6{
+    position: relative;
+    bottom: 25vw;
+    right: 10vw;
+    transform: rotate(90deg);
+    font-size: 1.8vw;
+}
+
+#vtubername2-6 {
+    position: relative;
+    bottom: 20vw;
+    right: 5.5vw;
+    writing-mode: vertical-lr;
+    font-size: 2.4vw;
+}
+
+#vtuberbg-6:hover #vtubername-6,
+#vtuberbg-6:hover #vtubername2-6 {
+    visibility: visible;
+    opacity: 1;
+}
+
+#vtubername-6,
+#vtubername2-6 {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0.2s, opacity 0.2s linear;
+}
+
+#vtubername2-6 {
+    transition: right 0.2s;
+}
+
+#vtuberbg-6:hover #vtubername2-6 {
+    right: 0;
+}
+
+#vtuberbg-6:hover #vtuber-6 {
+    transform: scale(1.05); 
+    transition: transform 0.2s ease-in-out; 
+  }
+
+/* ----------------------------- Default Vtuber Img CSS----------------------------------------- */
+  
+.vtuberSlide img {
 width: 100%;
-height: 100%;
-object-fit: cover;
+height: auto;
 }
   

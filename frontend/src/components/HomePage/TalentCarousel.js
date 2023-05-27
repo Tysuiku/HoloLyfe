@@ -1,4 +1,6 @@
-import React, { useRef, useState } from "react";
+import React, { useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { fetchAllVtubers } from "../../store/vtuber";
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -13,6 +15,28 @@ import "./TalentCarousel.css";
 import { Navigation } from "swiper";
 
 const TalentCarousel = () => {
+  const dispatch = useDispatch();
+  const rawVtubers = useSelector((state) => state.vtuber.vtubers) || {};
+
+  // Transform the raw vtubers into an array, only keeping the fields we want.
+  const vtubers = Object.values(rawVtubers).map((vtuber) => ({
+    id: vtuber.id,
+    name: vtuber.name,
+    jpname: vtuber.jpname,
+    main_image_url: vtuber.main_image_url,
+  }));
+
+  const chunk = (arr, size) =>
+    Array.from({ length: Math.ceil(arr.length / size) }, (v, i) =>
+      arr.slice(i * size, i * size + size)
+    );
+
+  const vtuberChunks = chunk(vtubers, 6);
+
+  useEffect(() => {
+    dispatch(fetchAllVtubers());
+  }, [dispatch]);
+
   return (
     <div>
       <div id="TalentImgBg">
@@ -31,10 +55,30 @@ const TalentCarousel = () => {
         </div>
 
         <div>
-          <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
-            <SwiperSlide>Slide 1</SwiperSlide>
-            <SwiperSlide>Slide 2</SwiperSlide>
-            <SwiperSlide>Slide 3</SwiperSlide>
+          <Swiper
+            navigation={true}
+            modules={[Navigation]}
+            className="vtuberSwiper"
+          >
+            {vtuberChunks.map((vtuberChunk, index) => (
+              <SwiperSlide className="vtuberSlide" key={index}>
+                {vtuberChunk.map((vtuber) => (
+                  <div key={vtuber.id}>
+                    <div id={`vtuberbg-${vtuber.id}`}>
+                      <img
+                        id={`vtuber-${vtuber.id}`}
+                        src={vtuber.main_image_url}
+                        alt={vtuber.name}
+                      />
+                      <div id="vtuberNameDivider">
+                        <h2 id={`vtubername-${vtuber.id}`}>{vtuber.name}</h2>
+                        <h3 id={`vtubername2-${vtuber.id}`}>{vtuber.jpname}</h3>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </SwiperSlide>
+            ))}
           </Swiper>
         </div>
       </div>
