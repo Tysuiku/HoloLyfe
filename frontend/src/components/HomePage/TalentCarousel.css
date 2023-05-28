@@ -1970,6 +1970,380 @@ gap: 1vw;
     transition: transform 0.2s ease-in-out; 
   }
 
+/* ----------------------------- Polka CSS----------------------------------------- */
+
+#vtuberbg-31{
+    cursor: pointer;
+    margin-top: 1vw;
+    background-color: #ce2830;
+    border-radius: 20px;
+    width: 14vw;
+    height: 23vw;
+    z-index: -1;
+}
+
+#vtuber-31{
+    position: relative;
+    bottom: 0.7vw;
+    right: 1.1vw;
+    width: 16.8vw;
+    height: auto;
+}
+
+#vtubername-31{
+    position: relative;
+    bottom: 24.2vw;
+    right: 9.9vw;
+    transform: rotate(90deg);
+    font-size: 1.9vw;
+}
+
+#vtubername2-31 {
+    position: relative;
+    bottom: 20vw;
+    right: 5.5vw;
+    writing-mode: vertical-lr;
+    font-size: 2.4vw;
+}
+
+#vtuberbg-31:hover #vtubername-31,
+#vtuberbg-31:hover #vtubername2-31 {
+    visibility: visible;
+    opacity: 1;
+}
+
+#vtubername-31,
+#vtubername2-31 {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0.2s, opacity 0.2s linear;
+}
+
+#vtubername2-31 {
+    transition: right 0.2s;
+}
+
+#vtuberbg-31:hover #vtubername2-31 {
+    right: 0;
+}
+
+#vtuberbg-31:hover #vtuber-31 {
+    transform: scale(1.05); 
+    transition: transform 0.2s ease-in-out; 
+  }
+
+/* ----------------------------- Laplis CSS----------------------------------------- */
+
+#vtuberbg-32{
+    cursor: pointer;
+    margin-top: 1vw;
+    background-color: #936cc5   ;
+    border-radius: 20px;
+    width: 14vw;
+    height: 23vw;
+    z-index: -1;
+}
+
+#vtuber-32{
+    position: relative;
+    bottom: 1vw;
+    right: 0.8vw;
+    width: 15.8vw;
+    height: auto;
+}
+
+#vtubername-32{
+    position: relative;
+    bottom: 28.8vw;
+    right: 14.2vw;
+    transform: rotate(90deg);
+    font-size: 1.65vw;
+}
+
+#vtubername2-32 {
+    position: relative;
+    bottom: 23.5vw;
+    right: 5.5vw;
+    writing-mode: vertical-lr;
+    font-size: 2vw;
+}
+
+#vtuberbg-32:hover #vtubername-32,
+#vtuberbg-32:hover #vtubername2-32 {
+    visibility: visible;
+    opacity: 1;
+}
+
+#vtubername-32,
+#vtubername2-32 {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0.2s, opacity 0.2s linear;
+}
+
+#vtubername2-32 {
+    transition: right 0.2s;
+}
+
+#vtuberbg-32:hover #vtubername2-32 {
+    right: 0;
+}
+
+#vtuberbg-32:hover #vtuber-32 {
+    transform: scale(1.05); 
+    transition: transform 0.2s ease-in-out; 
+  }
+
+/* ----------------------------- Lui CSS----------------------------------------- */
+
+#vtuberbg-33{
+    cursor: pointer;
+    margin-top: 1vw;
+    background-color: #831450;
+    border-radius: 20px;
+    width: 14vw;
+    height: 23vw;
+    z-index: -1;
+}
+
+#vtuber-33{
+    position: relative;
+    bottom: 1.6vw;
+    right: 0.3vw;
+    width: 14.8vw;
+    height: auto;
+}
+
+#vtubername-33{
+    position: relative;
+    bottom: 25.4vw;
+    right: 8.3vw;
+    transform: rotate(90deg);
+    font-size: 2vw;
+}
+
+#vtubername2-33 {
+    position: relative;
+    bottom: 20vw;
+    right: 5.5vw;
+    writing-mode: vertical-lr;
+    font-size: 2.6vw;
+}
+
+#vtuberbg-33:hover #vtubername-33,
+#vtuberbg-33:hover #vtubername2-33 {
+    visibility: visible;
+    opacity: 1;
+}
+
+#vtubername-33,
+#vtubername2-33 {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0.2s, opacity 0.2s linear;
+}
+
+#vtubername2-33 {
+    transition: right 0.2s;
+}
+
+#vtuberbg-33:hover #vtubername2-33 {
+    right: 0;
+}
+
+#vtuberbg-33:hover #vtuber-33 {
+    transform: scale(1.05); 
+    transition: transform 0.2s ease-in-out; 
+  }
+
+/* ----------------------------- Koyori CSS----------------------------------------- */
+
+#vtuberbg-34{
+    cursor: pointer;
+    margin-top: 1vw;
+    background-color: #ffacd2;
+    border-radius: 20px;
+    width: 14vw;
+    height: 23vw;
+    z-index: -1;
+}
+
+#vtuber-34{
+    position: relative;
+    bottom: 1.1vw;
+    right: 1.5vw;
+    width: 17.8vw;
+    height: auto;
+}
+
+#vtubername-34{
+    position: relative;
+    bottom: 24.9vw;
+    right: 9.9vw;
+    transform: rotate(90deg);
+    font-size: 1.9vw;
+}
+
+#vtubername2-34 {
+    position: relative;
+    bottom: 20vw;
+    right: 5.5vw;
+    writing-mode: vertical-lr;
+    font-size: 2.4vw;
+}
+
+#vtuberbg-34:hover #vtubername-34,
+#vtuberbg-34:hover #vtubername2-34 {
+    visibility: visible;
+    opacity: 1;
+}
+
+#vtubername-34,
+#vtubername2-34 {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0.2s, opacity 0.2s linear;
+}
+
+#vtubername2-34 {
+    transition: right 0.2s;
+}
+
+#vtuberbg-34:hover #vtubername2-34 {
+    right: 0;
+}
+
+#vtuberbg-34:hover #vtuber-34 {
+    transform: scale(1.05); 
+    transition: transform 0.2s ease-in-out; 
+  }
+
+/* ----------------------------- Iroha CSS----------------------------------------- */
+
+#vtuberbg-35{
+    cursor: pointer;
+    margin-top: 1vw;
+    background-color: #93dcd7;
+    border-radius: 20px;
+    width: 14vw;
+    height: 23vw;
+    z-index: -1;
+}
+
+#vtuber-35{
+    position: relative;
+    bottom: 1.5vw;
+    right: 0.5vw;
+    width: 13.5vw;
+    height: auto;
+}
+
+#vtubername-35{
+    position: relative;
+    bottom: 26.2vw;
+    right: 9.9vw;
+    transform: rotate(90deg);
+    font-size: 1.75vw;
+}
+
+#vtubername2-35 {
+    position: relative;
+    bottom: 20vw;
+    right: 5.5vw;
+    writing-mode: vertical-lr;
+    font-size: 2.4vw;
+}
+
+#vtuberbg-35:hover #vtubername-35,
+#vtuberbg-35:hover #vtubername2-35 {
+    visibility: visible;
+    opacity: 1;
+}
+
+#vtubername-35,
+#vtubername2-35 {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0.2s, opacity 0.2s linear;
+}
+
+#vtubername2-35 {
+    transition: right 0.2s;
+}
+
+#vtuberbg-35:hover #vtubername2-35 {
+    right: 0;
+}
+
+#vtuberbg-35:hover #vtuber-35 {
+    transform: scale(1.05); 
+    transition: transform 0.2s ease-in-out; 
+  }
+
+/* ----------------------------- Risu CSS----------------------------------------- */
+
+#vtuberbg-36{
+    cursor: pointer;
+    margin-top: 1vw;
+    background-color: #f6babb;
+    border-radius: 20px;
+    width: 14vw;
+    height: 23vw;
+    z-index: -1;
+}
+
+#vtuber-36{
+    position: relative;
+    bottom: 1vw;
+    right: 1.4vw;
+    width: 16.3vw;
+    height: auto;
+}
+
+#vtubername-36{
+    position: relative;
+    bottom: 26.9vw;
+    right: 12.5vw;
+    transform: rotate(90deg);
+    font-size: 2vw;
+}
+
+#vtubername2-36 {
+    position: relative;
+    bottom: 20vw;
+    right: 5.5vw;
+    writing-mode: vertical-lr;
+    font-size: 2.5vw;
+}
+
+#vtuberbg-36:hover #vtubername-36,
+#vtuberbg-36:hover #vtubername2-36 {
+    visibility: visible;
+    opacity: 1;
+}
+
+#vtubername-36,
+#vtubername2-36 {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0.2s, opacity 0.2s linear;
+}
+
+#vtubername2-36 {
+    transition: right 0.2s;
+}
+
+#vtuberbg-36:hover #vtubername2-36 {
+    right: 0;
+}
+
+#vtuberbg-36:hover #vtuber-36 {
+    transform: scale(1.05); 
+    transition: transform 0.2s ease-in-out; 
+  }
+
+/* -----------------------------  CSS----------------------------------------- */
+
 /* ----------------------------- Default Vtuber Img CSS----------------------------------------- */
   
 .vtuberSlide img {
