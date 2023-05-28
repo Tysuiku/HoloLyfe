@@ -15,8 +15,9 @@ echo "Gem path: $GEM_PATH"
 
 npm run build
 
-# install bundler
-gem install bundler
+# install bundler compatible with Ruby 2.5.0
+gem install bundler -v 2.1.4
+
 
 # use bundler to install gems
 bundle install
