@@ -1,5 +1,4 @@
 import "./IntroBox.css";
-import SuiseiDance from "./BackgroundVideoHolo.mp4";
 import HoloHead from "./hololiveHead.png";
 import NavBar from "./NavBar";
 
@@ -8,7 +7,10 @@ const Introbox = () => {
     <>
       <div className="video-background">
         <video autoPlay loop muted>
-          <source src={SuiseiDance} type="video/mp4" />
+          <source
+            src="https://hololyfe-seeds.s3.amazonaws.com/BackgroundVideoHolo.mp4"
+            type="video/mp4"
+          />
         </video>
 
         <div className="NavBarLogoSplit">
