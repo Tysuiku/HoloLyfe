@@ -10,6 +10,13 @@ echo "Gem path: $GEM_PATH"
 export PATH="$GEM_HOME/bin:$PATH"
 
 npm run build
+
+# install bundler
+gem install bundler
+
+# use bundler to install gems
 bundle install
-rails db:migrate
-rails db:seed #if needed
+
+# use bundler to run rails commands
+bundle exec rails db:migrate
+bundle exec rails db:seed #if needed
