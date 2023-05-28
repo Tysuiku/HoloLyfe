@@ -30,6 +30,7 @@
     bottom: 1.05vw;
     left: 5vw;
     font-size: 4vw;
+    font-weight: 800;
     /* font-family: brandon-grotesque, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic, sans-serif; */
     color: #063f5c;
     font-weight: 900;
@@ -67,6 +68,7 @@
 text-align: center;
 color: white;
 text-shadow: 1px 0px #fffdfd, 0px 1px #fdf8f8, -1px 0px #fdfbfb, 0px -1px #ffffff;
+
 /* Center slide text vertically */
 display: flex;
 justify-content: center;
@@ -150,7 +152,6 @@ gap: 1vw;
     right: 5.5vw;
     bottom: 18.5vw;
     font-size: 2vw;
-    font-weight: bolder;
     writing-mode: vertical-lr;
 }
 
@@ -214,7 +215,6 @@ gap: 1vw;
     bottom: 18vw;
     writing-mode: vertical-lr;
     font-size: 2vw;
-    font-weight: bolder;
 }
 
 #vtuberbg-2:hover #vtubername-2,
@@ -277,7 +277,6 @@ gap: 1vw;
     right: 6vw;
     writing-mode: vertical-lr;
     font-size: 2.2vw;
-    font-weight: bolder;
 }
 
 #vtuberbg-3:hover #vtubername-3,
