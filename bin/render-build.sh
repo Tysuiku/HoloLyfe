@@ -16,7 +16,7 @@ echo "Gem path: $GEM_PATH"
 npm run build
 
 # install the latest bundler
-gem install bundler
+gem install bundler -v 2.3.26
 
 # use bundler to install gems
 bundle install
