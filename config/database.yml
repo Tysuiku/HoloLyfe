@@ -84,3 +84,4 @@ production:
   database: HoloLyfe_production
   username: HoloLyfe
   password: <%= ENV["HOLOLYFE_DATABASE_PASSWORD"] %>
+  url: <%= ENV['DATABASE_URL'] %>

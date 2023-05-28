@@ -1,5 +1,29 @@
 {
   "dependencies": {
     "axios": "^1.4.0"
+  },
+  "name": "hololyfe",
+  "description": "This project will be a clone of Hololives main website. (But with small bias on vtubers of my liking) This is a for fun project I all works and content belong to each individual vtuber and this is a non profit project.",
+  "version": "1.0.0",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "build": "npm install --prefix frontend && npm run build --prefix frontend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tysuiku/Hololyfe.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tysuiku/Hololyfe/issues"
+  },
+  "homepage": "https://github.com/Tysuiku/Hololyfe#readme",
+  "engines": {
+    "node": "v16.19.1"
   }
 }
