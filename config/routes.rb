@@ -6,4 +6,8 @@ Rails.application.routes.draw do
   namespace :api, defaults: { format: :json } do
     resources :vtubers, only: [:index, :show]
   end
+
+  #config/routes.rb
+
+  get "*path", to: "static_pages#frontend_index"
 end
