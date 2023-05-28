@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# exit on error
+# Exit on error
 set -o errexit
 
 # Define a new directory to install gems
@@ -15,12 +15,13 @@ echo "Gem path: $GEM_PATH"
 
 npm run build
 
-# install the latest bundler
+# Install the latest bundler
 gem install bundler -v 2.3.26
 
-# use bundler to install gems
+# Use bundler to install gems
+bundle config set --local path "$GEM_HOME"
 bundle install
 
-# use bundler to run rails commands
+# Use bundler to run rails commands
 bundle exec rails db:migrate
-bundle exec rails db:seed #if needed
+bundle exec rails db:seed # if needed
