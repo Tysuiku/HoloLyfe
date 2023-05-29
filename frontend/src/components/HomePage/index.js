@@ -11,7 +11,7 @@ const HomePage = () => {
     const loadAllComponents = async () => {
       setTimeout(() => {
         setIsLoading(false);
-      }, 1000);
+      }, 2000);
     };
 
     loadAllComponents();
