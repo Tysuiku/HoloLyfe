@@ -13,10 +13,17 @@ import "./TalentCarousel.css";
 
 // import required modules
 import { Navigation } from "swiper";
+import { useNavigate } from "react-router-dom";
 
 const TalentCarousel = () => {
   const dispatch = useDispatch();
   const rawVtubers = useSelector((state) => state.vtuber.vtubers) || {};
+  const navigate = useNavigate();
+
+  const handleOnClick = (vtuberName) => {
+    let formattedName = vtuberName.toLowerCase().replace(/\s/g, "-");
+    navigate(`/talents/${formattedName}`);
+  };
 
   // Transform the raw vtubers into an array, only keeping the fields we want.
   const vtubers = Object.values(rawVtubers).map((vtuber) => ({
@@ -35,7 +42,7 @@ const TalentCarousel = () => {
 
   useEffect(() => {
     dispatch(fetchAllVtubers());
-  }, [dispatch]);
+  }, []);
 
   return (
     <div>
@@ -63,7 +70,10 @@ const TalentCarousel = () => {
             {vtuberChunks.map((vtuberChunk, index) => (
               <SwiperSlide className="vtuberSlide" key={index}>
                 {vtuberChunk.map((vtuber) => (
-                  <div key={vtuber.id}>
+                  <div
+                    key={vtuber.id}
+                    onClick={() => handleOnClick(vtuber.name)}
+                  >
                     <div id={`vtuberbg-${vtuber.id}`}>
                       <img
                         id={`vtuber-${vtuber.id}`}
