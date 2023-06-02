@@ -8,7 +8,7 @@ const Introbox = () => {
       <div className="video-background">
         <video autoPlay loop muted>
           <source
-            src="https://hololyfe-seeds.s3.amazonaws.com/BackgroundVideoHolo.mp4"
+            src="https://hololyfe-seeds.s3.amazonaws.com/Suisei_Hoshimachi_PV.mp4"
             type="video/mp4"
           />
         </video>

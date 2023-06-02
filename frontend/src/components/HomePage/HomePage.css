@@ -5,6 +5,16 @@
     width: 20vw;
     height: auto;
 }
+
+#LoadScreenText{
+    position: relative;
+    top: 22vw;
+    left: 25.5vw;
+    font-weight: 900;
+    font-size: 3vw;
+    color: #5ac6fb;
+}
+
 .HomePageBox{
     display: flex;
     flex-direction: column;
