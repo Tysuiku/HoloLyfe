@@ -11,7 +11,7 @@ const HomePage = () => {
     const loadAllComponents = async () => {
       setTimeout(() => {
         setIsLoading(false);
-      }, 0);
+      }, 4000);
     };
 
     loadAllComponents();
@@ -21,6 +21,7 @@ const HomePage = () => {
     return (
       <div>
         <img id="LoadScreen" src={LoadImage} />
+        <p id="LoadScreenText">Please Excuse Render Free Tier!!! </p>
       </div>
     );
   }
