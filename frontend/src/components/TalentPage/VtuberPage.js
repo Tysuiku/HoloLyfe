@@ -3,6 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { useParams, useNavigate } from "react-router-dom";
 import { fetchSingleVtuber } from "../../store/vtuber";
 import NavBar from "../HomePage/IntroBox/NavBar";
+import "./VtuberPage.css"
 
 const VtuberPage = () => {
   const dispatch = useDispatch();
@@ -81,17 +82,41 @@ const VtuberPage = () => {
     }
   }, [dispatch, vtuberId, navigate]);
 
+  const renderMedia = (vtuber) => {
+    const isVideo = vtuber.main_vid_url && vtuber.main_vid_url.endsWith('.mp4');
+
+    if (isVideo) {
+      return (
+        <video autoPlay loop muted id="VtuberVideo">
+          <source src={vtuber.main_vid_url} type="video/mp4" />
+        </video>
+      );
+    } else {
+      return (
+        <img
+          id="VtuberNotVideo"
+          src={vtuber.main_vid_url}
+          alt={vtuber.name}
+        />
+      );
+    }
+  };
+
   return (
     <>
       <NavBar />
 
       {singleVtuber && singleVtuber[vtuberId] && (
         <>
-          <h1>{singleVtuber[vtuberId].name}'s Page</h1>
-          <img
+          <h1>{singleVtuber[vtuberId].name}</h1>
+          <p>{singleVtuber[vtuberId].jpname}</p>
+          <p>{singleVtuber[vtuberId].quote}</p>
+          <p>{singleVtuber[vtuberId].description}</p>
+          <img id="TempVtuberImage"
             src={singleVtuber[vtuberId].main_image_url}
             alt={singleVtuber[vtuberId].name}
           />
+          {renderMedia(singleVtuber[vtuberId])}
         </>
       )}
     </>
