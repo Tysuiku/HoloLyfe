@@ -74,7 +74,63 @@ const VtuberPage = () => {
 
   const socialMediaLinks = {
     "1": { youtube: "https://www.youtube.com/channel/UC5CwaMl1eIgY8h02uZw7u8A", twitter: "https://twitter.com/suisei_hosimati" },
-    "5": { youtube: "https://www.youtube.com/channel/UC-hM6YJuNYVAmUWxeIr9FeA", twitter: "https://twitter.com/sakuramiko35"},
+    "2": { youtube: "https://www.youtube.com/channel/UC1opHUrw8rvnsadT-iGp7Cg", twitter: "https://twitter.com/minatoaqua" },
+    "3": { youtube: "https://www.youtube.com/channel/UC1uv2Oq6kNxgATlCiez59hw", twitter: "https://twitter.com/tokoyamitowa" },
+    "4": { youtube: "https://www.youtube.com/channel/UCIBY1ollUsauvVi4hW4cumw", twitter: "https://twitter.com/sakamatachloe" },
+    "5": { youtube: "https://www.youtube.com/channel/UC-hM6YJuNYVAmUWxeIr9FeA", twitter: "https://twitter.com/sakuramiko35" },
+    "6": { youtube: "https://www.youtube.com/channel/UC1DCedRgGHBdm81E1llLhOQ", twitter: "https://twitter.com/usadapekora" },
+    "7": { youtube: "https://www.youtube.com/channel/UCp6993wxpyDPHUpavwDFqgg", twitter: "https://twitter.com/tokino_sora" },
+    "8": { youtube: "https://www.youtube.com/channel/UCDqI2jOz0weumE8s7paEk6g", twitter: "https://twitter.com/robocosan" },
+    "9": { youtube: "https://www.youtube.com/channel/UCD8HOxPs4Xvsm8H0ZxXGiBw", twitter: "https://twitter.com/yozoramel" },
+    "10": { youtube: "https://www.youtube.com/channel/UCFTLzh12_nrtzqBPsTCqenA", twitter: "https://twitter.com/akirosenthal" },
+    "11": { youtube: "https://www.youtube.com/channel/UC1CfXB_kRs3C-zaeTG3oGyg", twitter: "https://twitter.com/akaihaato" },
+    "12": { youtube: "https://www.youtube.com/channel/UCdn5BQ06XqgXoAxIhbqw5Rg", twitter: "https://twitter.com/shirakamifubuki" },
+    "13": { youtube: "https://www.youtube.com/channel/UCQ0UDLQCjY0rmuxCDE38FGg", twitter: "https://twitter.com/natsuiromatsuri" },
+    "14": { youtube: "https://www.youtube.com/channel/UCXTpFs_3PqI41qX2d9tL2Rw", twitter: "https://twitter.com/murasakishionch" },
+    "15": { youtube: "https://www.youtube.com/channel/UC7fk0CB07ly8oSl0aqKkqFg", twitter: "https://twitter.com/nakiriayame" },
+    "16": { youtube: "https://www.youtube.com/channel/UC1suqwovbL1kzsoaZgFZLKg", twitter: "https://twitter.com/yuzukichococh" },
+    "17": { youtube: "https://www.youtube.com/channel/UCvzGlP9oQwU--Y0r9id_jnA", twitter: "https://twitter.com/oozorasubaru" },
+    "18": { youtube: "https://www.youtube.com/channel/UC0TXe_LYZ4scaW2XMyi5_kw", twitter: "https://twitter.com/AZKi_VDiVA" },
+    "19": { youtube: "https://www.youtube.com/channel/UCp-5t9SrOQwXMU7iIjQfARg", twitter: "https://twitter.com/ookamimio" },
+    "20": { youtube: "https://www.youtube.com/channel/UCvaTdHTWBGv3MKj3KVqJVCw", twitter: "https://twitter.com/nekomataokayu" },
+    "21": { youtube: "https://www.youtube.com/channel/UChAnqc_AY5_I3Px5dig3X1Q", twitter: "https://twitter.com/inugamikorone" },
+    "22": { youtube: "https://www.youtube.com/channel/UCvInZx9h3jC2JzsIzoOebWg", twitter: "https://twitter.com/shiranuiflare" },
+    "23": { youtube: "https://www.youtube.com/channel/UCdyqAaZDKHXg4Ahi7VENThQ", twitter: "https://twitter.com/shiroganenoel" },
+    "24": { youtube: "https://www.youtube.com/channel/UCCzUftO8KOVkV4wQG1vkUvg", twitter: "https://twitter.com/houshoumarine" },
+    "25": { youtube: "https://www.youtube.com/channel/UCZlDXzGoo7d44bwdNObFacg", twitter: "https://twitter.com/amanekanatach" },
+    "26": { youtube: "https://www.youtube.com/channel/UCqm3BQLlJfvkTsX_hvm0UmA", twitter: "https://twitter.com/tsunomakiwatame" },
+    "27": { youtube: "https://www.youtube.com/channel/UCa9Y57gfeY0Zro_noHRVrnw", twitter: "https://twitter.com/himemoriluna" },
+    "28": { youtube: "https://www.youtube.com/channel/UCFKOVgVbGmX65RxO3EtH3iw", twitter: "https://twitter.com/yukihanalamy" },
+    "29": { youtube: "https://www.youtube.com/channel/UCAWSyEs_Io8MtpY3m-zqILA", twitter: "https://twitter.com/momosuzunene" },
+    "30": { youtube: "https://www.youtube.com/channel/UCUKD-uaobj9jiqB-VXt71mA", twitter: "https://twitter.com/shishirobotan" },
+    "31": { youtube: "https://www.youtube.com/channel/UCK9V2B22uJYu3N7eR_BT9QA", twitter: "https://twitter.com/omarupolka" },
+    "32": { youtube: "https://www.youtube.com/channel/UCENwRMx5Yh42zWpzURebzTw", twitter: "https://twitter.com/LaplusDarknesss" },
+    "33": { youtube: "https://www.youtube.com/channel/UCs9_O1tRPMQTHQ-N_L6FU2g", twitter: "https://twitter.com/takanelui" },
+    "34": { youtube: "https://www.youtube.com/channel/UC6eWCld0KwmyHFbAqK3V-Rw", twitter: "https://twitter.com/hakuikoyori" },
+    "35": { youtube: "https://www.youtube.com/channel/UC_vMYWcDjmfdpH6r4TTn1MQ", twitter: "https://twitter.com/kazamairohach" },
+    "36": { youtube: "https://www.youtube.com/channel/UCOyYb1c43VlX9rc_lT6NKQw", twitter: "https://twitter.com/ayunda_risu" },
+    "37": { youtube: "https://www.youtube.com/channel/UCP0BspO_AMEe3aQqqpo89Dg", twitter: "https://twitter.com/moonahoshinova" },
+    "38": { youtube: "https://www.youtube.com/channel/UCAoy6rzhSf4ydcYjJw3WoVg", twitter: "https://twitter.com/airaniiofifteen" },
+    "39": { youtube: "https://www.youtube.com/channel/UCYz_5n-uDuChHtLo7My1HnQ", twitter: "https://twitter.com/kureijiollie" },
+    "40": { youtube: "https://www.youtube.com/channel/UC727SQYUvx5pDDGQpTICNWg/featured", twitter: "https://twitter.com/anyamelfissa" },
+    "41": { youtube: "https://www.youtube.com/channel/UChgTyjG-pdNvxxhdsXfHQ5Q?", twitter: "https://twitter.com/pavoliareine" },
+    "42": { youtube: "https://www.youtube.com/channel/UCTvHWSfBZgtxE4sILOaurIQ", twitter: "https://twitter.com/vestiazeta" },
+    "43": { youtube: "https://www.youtube.com/channel/UCZLZ8Jjx_RN2CXloOmgTHVg", twitter: "https://twitter.com/kaelakovalskia" },
+    "44": { youtube: "https://www.youtube.com/channel/UCjLEmnpCNeisMxy134KPwWw", twitter: "https://twitter.com/kobokanaeru" },
+    "45": { youtube: "https://www.youtube.com/channel/UCL_qhgtOy0dy1Agp8vkySQg", twitter: "https://twitter.com/moricalliope" },
+    "46": { youtube: "https://www.youtube.com/channel/UCHsx4Hqa-1ORjQTh9TYDhww", twitter: "https://twitter.com/takanashikiara" },
+    "47": { youtube: "https://www.youtube.com/channel/UCMwGHR0BTZuLsmjY_NT5Pwg", twitter: "https://twitter.com/ninomaeinanis" },
+    "48": { youtube: "https://www.youtube.com/channel/UCoSrY_IQQVpmIRZ9Xf-y93g", twitter: "https://twitter.com/gawrgura" },
+    "49": { youtube: "https://www.youtube.com/channel/UCyl1z3jo3XHR1riLFKG5UAg", twitter: "https://twitter.com/watsonameliaEN" },
+    "50": { youtube: "https://www.youtube.com/channel/UC8rcEBzJSleTkf_-agPM20g", twitter: "https://twitter.com/irys_en" },
+    "51": { youtube: "https://www.youtube.com/channel/UCO_aKKYxn4tvrqPjcTzZ6EQ", twitter: "https://twitter.com/ceresfauna" },
+    "52": { youtube: "https://www.youtube.com/channel/UCmbs8T6MWqUHP1tIQvSgKrg", twitter: "https://twitter.com/ourokronii" },
+    "53": { youtube: "https://www.youtube.com/channel/UC3n5uGu18FoCy23ggWWp8tA", twitter: "https://twitter.com/nanashimumei_en" },
+    "54": { youtube: "https://www.youtube.com/channel/UCgmPnx-EEeOrZSg5Tiw7ZRQ", twitter: "https://twitter.com/hakosbaelz" },
+    "55": { youtube: "https://www.youtube.com/channel/UCS9uQI-jC3DE0L4IpXyvr6w", twitter: "https://twitter.com/kiryucoco" },
+    "56": { youtube: "https://www.youtube.com/channel/UCsUj0dszADCGbF3gNrQEuSQ", twitter: "https://twitter.com/tsukumosana" },
+    "57": { youtube: "https://www.youtube.com/channel/UCJFZiqLMntJufDCHc6bQixg", twitter: "https://twitter.com/achan_UGA" },
+    "58": { youtube: "https://www.youtube.com/channel/UCJFZiqLMntJufDCHc6bQixg", twitter: "https://twitter.com/harusakinodoka" },
   };
 
   const vtuberId = nameToIdMap[vtuberName];
@@ -89,14 +145,15 @@ const VtuberPage = () => {
 
   const renderMedia = (vtuber) => {
     const isVideo = vtuber.main_vid_url && vtuber.main_vid_url.endsWith('.mp4');
-
+    const isImage = vtuber.main_vid_url && /\.(jpg|jpeg|png|gif)$/i.test(vtuber.main_vid_url);
+  
     if (isVideo) {
       return (
         <video autoPlay loop muted id="VtuberVideo">
           <source src={vtuber.main_vid_url} type="video/mp4" />
         </video>
       );
-    } else {
+    } else if (isImage) {
       return (
         <img
           id="VtuberNotVideo"
@@ -104,9 +161,11 @@ const VtuberPage = () => {
           alt={vtuber.name}
         />
       );
+    } else {
+      return null;
     }
   };
-
+  
   return (
     <div className="VtuberPageBox">
       <NavBar />

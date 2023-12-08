@@ -1,12 +1,13 @@
 .VtuberBox{
     margin-top: 6vw;
-    margin-left: 27vw;
+    margin-left: 28vw;
     gap: 2vw;
     display: flex;
 }
 
 #TempVtuberImage{
-    width: 23vw;
+    width: auto;
+    height: 35vw;
 }
 
 #BgVtuberImage{
