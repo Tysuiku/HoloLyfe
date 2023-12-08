@@ -72,6 +72,11 @@ const VtuberPage = () => {
     "harusaki-nodoka": "58",
   };
 
+  const socialMediaLinks = {
+    "1": { youtube: "https://www.youtube.com/channel/UC5CwaMl1eIgY8h02uZw7u8A", twitter: "https://twitter.com/suisei_hosimati" },
+    "5": { youtube: "https://www.youtube.com/channel/UC-hM6YJuNYVAmUWxeIr9FeA", twitter: "https://twitter.com/sakuramiko35"},
+  };
+
   const vtuberId = nameToIdMap[vtuberName];
 
   useEffect(() => {
@@ -103,23 +108,49 @@ const VtuberPage = () => {
   };
 
   return (
-    <>
+    <div className="VtuberPageBox">
       <NavBar />
 
+      
       {singleVtuber && singleVtuber[vtuberId] && (
-        <>
-          <h1>{singleVtuber[vtuberId].name}</h1>
-          <p>{singleVtuber[vtuberId].jpname}</p>
-          <p>{singleVtuber[vtuberId].quote}</p>
-          <p>{singleVtuber[vtuberId].description}</p>
-          <img id="TempVtuberImage"
+        <div className="VtuberBox">
+
+        <img id="TempVtuberImage"
             src={singleVtuber[vtuberId].main_image_url}
             alt={singleVtuber[vtuberId].name}
-          />
-          {renderMedia(singleVtuber[vtuberId])}
-        </>
+        />
+       
+          <div className="VtuberTextBox">
+
+            <p id="VtuberName">{singleVtuber[vtuberId].name}</p>
+            <p id="JpName">{singleVtuber[vtuberId].jpname}</p>
+            <p id="Vtuberquote">{singleVtuber[vtuberId].quote}</p>
+            <p id="VtuberDesu">{singleVtuber[vtuberId].description}</p>
+            {renderMedia(singleVtuber[vtuberId])}
+            <div className="VtuberSocialLinks">
+                <a 
+                  href={socialMediaLinks[vtuberId].youtube} 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="socialButton"
+                >
+                  <span className="buttonText">YouTube</span><span className="arrowSymbol">{' >'}</span>
+                </a>
+                <a 
+                  href={socialMediaLinks[vtuberId].twitter} 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="socialButton"
+                >
+                  <span className="buttonText">X</span><span className="arrowSymbol">{' >'}</span>
+                </a>
+            </div>
+
+          </div>
+        </div>
       )}
-    </>
+
+    </div>
   );
 };
 
