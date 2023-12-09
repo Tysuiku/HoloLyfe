@@ -11,7 +11,7 @@ const HomePage = () => {
     const loadAllComponents = async () => {
       setTimeout(() => {
         setIsLoading(false);
-      }, 0);
+      }, 1250);
     };
 
     loadAllComponents();
@@ -19,10 +19,10 @@ const HomePage = () => {
 
   if (isLoading) {
     return (
-      <div>
-        <img id="LoadScreen" src={LoadImage} />
-        <p id="LoadScreenText">Please Excuse Render Free Tier!!! </p>
-      </div>
+      <div id="LoadScreenWrapper">
+      <img id="LoadScreen" src={LoadImage} alt="Loading..." />
+      {/* <p id="LoadScreenText">Please Excuse Render Free Tier!!! </p> */}
+    </div>
     );
   }
 
