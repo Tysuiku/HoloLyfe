@@ -1,0 +1,13 @@
+<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+  <!-- Set width and height for medium-sized triangles -->
+  <pattern id="trianglePattern" width="50" height="43.3" patternUnits="userSpaceOnUse"> <!-- Height = (sqrt(3)/2) * width -->
+    <!-- Triangle pointing up -->
+    <path d="M 0,43.3 L 25,0 L 50,43.3 Z" fill="none" stroke="black" stroke-width="1.5"/>
+
+    <!-- Triangle pointing down in the next row -->
+    <path d="M 25,43.3 L 50,86.6 L 75,43.3 Z" fill="none" stroke="black" stroke-width="1.5"/>
+  </pattern>
+  <!-- Apply the pattern over the entire rectangle area -->
+  <rect width="100%" height="100%" fill="url(#trianglePattern)" />
+</svg>
+

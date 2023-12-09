@@ -1,11 +1,148 @@
+.VtuberPageBox {
+    position: relative;
+    width: auto;
+    height: 75vw;
+    overflow-x: hidden;
+    z-index: 0;
+  }
+  
+.VtuberBackground {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    z-index: -1;
+    opacity: 0.2;
+    margin-right: 48vw;
+  }
+
+  .TrianglePattern img {
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    z-index: -2;
+    opacity: 0.03;
+  }
+    
+/* -------------------------------------Images and Layout---------------------------------- */
+
+.VtuberBox{
+    margin-top: 6vw;
+    margin-left: 28vw;
+    gap: 2vw;
+    display: flex;
+}
+
 #TempVtuberImage{
-    width: 23vw;
+    width: auto;
+    height: 35vw;
 }
 
 #VtuberVideo{
-    width: 20vw;
+    width: 25vw;
 }
 
 #VtuberNotVideo{
-    width: 20vw;
+    width: 25vw;
+}
+
+/* ---------------------------------------Socials------------------------------------------ */
+
+.VtuberSocialLinks{
+    margin-top: 1vw;
+    display: flex;
+    gap: 0.5vw;
+}
+
+.socialButton {
+    font-family: 'Barlow', sans-serif;
+    font-weight: bold;
+    font-size: 0.6vw;
+    color: #063f5c;
+    border: 1.9px solid#063f5c;
+    border-radius: 5px;
+    padding: 0.5vw;
+    width: 11.15vw;
+    background-color: transparent;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: color 0.2s ease;
+    display: inline-block; 
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .buttonText {
+    flex-grow: 1; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .socialButton::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #063f5c;
+    transition: width 0.2s ease;
+    z-index: -1;
+  }
+  
+  .socialButton:hover::after {
+    width: 100%;
+  }
+  
+  .socialButton:hover {
+    color: white;
+  }
+
+/* ----------------------------------Vtuber Text Css--------------------------------------- */
+
+.VtuberTextBox{
+    margin-top: 1vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#VtuberName{
+    font-size: 2.5vw;
+    font-weight: bold;
+    line-height: 3vw;
+    color: #063f5c;
+}
+
+#JpName{
+    font-size: 0.7vw;
+    color: #7293a3;
+    font-weight: bold;
+    height: 1vw;
+}
+
+#Vtuberquote{
+    font-size: 1vw;
+    font-weight: bold;
+    color: #4c6f81;
+    margin-top: 1vw;
+    width: 25vw;
+    line-height: 1.4vw;
+    height: 4vw;
+}
+
+#VtuberDesu{
+    font-size: 0.85vw;
+    font-weight: bold;
+    color: #557c90;
+    line-height: 1.1vw;
+    width: 25vw;
 }
