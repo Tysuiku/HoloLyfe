@@ -11,6 +11,10 @@ const VtuberPage = () => {
   const { vtuberName } = useParams();
   const singleVtuber = useSelector((state) => state.vtuber.vtuber);
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const nameToIdMap = {
     "hoshimachi-suisei": "1",
     "minato-aqua": "2",
@@ -66,10 +70,20 @@ const VtuberPage = () => {
     "ouro-kronii": "52",
     "nanashi-mumei": "53",
     "hakos-baelz": "54",
-    "[alum]kiryu-coco": "55",
-    "[alum]-tsukumo-sana": "56",
-    "friend-a-(a-chan)": "57",
-    "harusaki-nodoka": "58",
+    "shiori-novella": "55",
+    "koseki-bijou":"56",
+    "nerissa-ravencroft":"57",
+    "fuwawa-abyssgard":"58",
+    "mococo-abyssgard":"59",
+    "hiodoshi-ao":"60",
+    "otonose-kanade":"61",
+    "ichijou-ririka":"62",
+    "juufuutei-raden":"63",
+    "todoroki-hajime":"64",
+    "[alum]kiryu-coco": "65",
+    "[alum]-tsukumo-sana": "66",
+    "friend-a-(a-chan)": "67",
+    "harusaki-nodoka": "68",
   };
 
   const socialMediaLinks = {
@@ -127,10 +141,20 @@ const VtuberPage = () => {
     "52": { youtube: "https://www.youtube.com/channel/UCmbs8T6MWqUHP1tIQvSgKrg", twitter: "https://twitter.com/ourokronii" },
     "53": { youtube: "https://www.youtube.com/channel/UC3n5uGu18FoCy23ggWWp8tA", twitter: "https://twitter.com/nanashimumei_en" },
     "54": { youtube: "https://www.youtube.com/channel/UCgmPnx-EEeOrZSg5Tiw7ZRQ", twitter: "https://twitter.com/hakosbaelz" },
-    "55": { youtube: "https://www.youtube.com/channel/UCS9uQI-jC3DE0L4IpXyvr6w", twitter: "https://twitter.com/kiryucoco" },
-    "56": { youtube: "https://www.youtube.com/channel/UCsUj0dszADCGbF3gNrQEuSQ", twitter: "https://twitter.com/tsukumosana" },
-    "57": { youtube: "https://www.youtube.com/channel/UCJFZiqLMntJufDCHc6bQixg", twitter: "https://twitter.com/achan_UGA" },
-    "58": { youtube: "https://www.youtube.com/channel/UCJFZiqLMntJufDCHc6bQixg", twitter: "https://twitter.com/harusakinodoka" },
+    "55": { youtube: "https://www.youtube.com/channel/UCgnfPPb9JI3e9A4cXHnWbyg", twitter:"https://twitter.com/shiorinovella" },
+    "56": { youtube: "https://www.youtube.com/channel/UC9p_lqQ0FEDz327Vgf5JwqA", twitter:"https://twitter.com/kosekibijou" },
+    "57": { youtube: "https://www.youtube.com/channel/UC_sFNM0z0MWm9A6WlKPuMMg", twitter:"https://twitter.com/nerissa_en" },
+    "58": { youtube: "https://www.youtube.com/channel/UCt9H_RpQzhxzlyBxFqrdHqA", twitter:"https://twitter.com/fuwamoco_en" },
+    "59": { youtube: "https://www.youtube.com/channel/UCt9H_RpQzhxzlyBxFqrdHqA", twitter:"https://twitter.com/fuwamoco_en" },
+    "60": { youtube: "https://www.youtube.com/channel/UCMGfV7TVTmHhEErVJg1oHBQ", twitter:"https://twitter.com/hiodoshiao" },
+    "61": { youtube: "https://www.youtube.com/@OtonoseKanade", twitter:"https://twitter.com/otonosekanade" },
+    "62": { youtube: "https://www.youtube.com/@IchijouRirika", twitter:"https://twitter.com/ichijouririka" },
+    "63": { youtube: "https://www.youtube.com/@JuufuuteiRaden", twitter:"https://twitter.com/juufuuteiraden" },
+    "64": { youtube: "https://www.youtube.com/@TodorokiHajime", twitter:"https://twitter.com/todoroki_hajime" },
+    "65": { youtube: "https://www.youtube.com/channel/UCS9uQI-jC3DE0L4IpXyvr6w", twitter: "https://twitter.com/kiryucoco" },
+    "66": { youtube: "https://www.youtube.com/channel/UCsUj0dszADCGbF3gNrQEuSQ", twitter: "https://twitter.com/tsukumosana" },
+    "67": { youtube: "https://www.youtube.com/channel/UCJFZiqLMntJufDCHc6bQixg", twitter: "https://twitter.com/achan_UGA" },
+    "68": { youtube: "https://www.youtube.com/channel/UCJFZiqLMntJufDCHc6bQixg", twitter: "https://twitter.com/harusakinodoka" },
   };
 
   const vtuberId = nameToIdMap[vtuberName];
