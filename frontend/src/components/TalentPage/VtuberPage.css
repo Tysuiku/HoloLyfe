@@ -25,7 +25,18 @@
     width: 100%;
     height: 90%;
     z-index: -2;
-    opacity: 0.03;
+    opacity: 0.09;
+  }
+
+  .triangle-container {
+    position: relative;
+  }
+  
+  .triangle {
+    position: absolute;
+    width: 2.5vw; /* Adjust the size of the triangles */
+    height: auto; /* Maintain aspect ratio */
+    opacity: 0.2;
   }
     
 /* -------------------------------------Images and Layout---------------------------------- */

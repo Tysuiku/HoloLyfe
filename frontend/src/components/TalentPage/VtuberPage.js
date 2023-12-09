@@ -174,12 +174,13 @@ const VtuberPage = () => {
   }
 
   const triangles = [
-      { id: 1, rotation: 10, top: '10%', left: '10%' },
-      { id: 2, rotation: 75, top: '10%', left: '50%' },
-      { id: 3, rotation: 140, top: '40%', left: '90%' },
-      { id: 4, rotation: 170, top: '55%', left: '30%' },
-      { id: 5, rotation: 260, top: '60%', left: '60%' },
-    ];
+    { id: 1, rotation: 10, top: '10vw', left: '10vw' },
+    { id: 2, rotation: 75, top: '10vw', left: '47vw' },
+    { id: 3, rotation: 140, top: '35vw', left: '90vw' },
+    { id: 4, rotation: 170, top: '42vw', left: '30vw' },
+    { id: 5, rotation: 260, top: '45vw', left: '60vw' },
+  ];
+  
   
   return (
     <div className="VtuberPageBox">
@@ -189,19 +190,21 @@ const VtuberPage = () => {
         <img src="/trianglePattern.svg" alt="Triangle Pattern" />
       </div>
 
+      <div className="triangle-container">
       {triangles.map(triangle => (
         <img
           key={triangle.id}
           src="/triangles.svg"
           alt={`Triangle ${triangle.id}`}
+          className="triangle"
           style={{
-            position: 'absolute',
+            transform: `rotate(${triangle.rotation}deg)`,
             top: triangle.top,
-            left: triangle.left,
-            transform: `rotate(${triangle.rotation}deg)`
+            left: triangle.left
           }}
         />
       ))}
+    </div>
 
       <NavBar />
 

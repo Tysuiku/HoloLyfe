@@ -55,6 +55,7 @@ Vtuber.create!(
 towa_main_image_url = "https://hololyfe-seeds.s3.amazonaws.com/towamain.png"
 towa_image_urls = [
   "https://hololyfe-seeds.s3.amazonaws.com/towaimage1.png",
+  "https://hololyfe-seeds.s3.amazonaws.com/towaimage5.png",
   "https://hololyfe-seeds.s3.amazonaws.com/towaimage2.png",
   "https://hololyfe-seeds.s3.amazonaws.com/towaimage3.png",
   "https://hololyfe-seeds.s3.amazonaws.com/towaimage4.png",
@@ -74,6 +75,7 @@ Vtuber.create!(
 chloe_main_image_url = "https://hololyfe-seeds.s3.amazonaws.com/chloemain.png"
 chloe_image_urls = [
   "https://hololyfe-seeds.s3.amazonaws.com/chloeimage1.png",
+  "https://hololyfe-seeds.s3.amazonaws.com/chloeimage3.png",
   "https://hololyfe-seeds.s3.amazonaws.com/chloeimage2.png",
 ]
 chloe_vid_url = "https://hololyfe-seeds.s3.amazonaws.com/chloevid.mp4"
@@ -95,6 +97,8 @@ Vtuber.create!(
 miko_main_image_url = "https://hololyfe-seeds.s3.amazonaws.com/mikomain.png"
 miko_image_urls = [
   "https://hololyfe-seeds.s3.amazonaws.com/mikoimage1.png",
+  "https://hololyfe-seeds.s3.amazonaws.com/mikoimage3.png",
+  "https://hololyfe-seeds.s3.amazonaws.com/mikoimage4.png",
   "https://hololyfe-seeds.s3.amazonaws.com/mikoimage2.png",
 ]
 miko_vid_url = "https://hololyfe-seeds.s3.amazonaws.com/mikovid.gif"
@@ -132,10 +136,10 @@ Vtuber.create!(
 
 sora_main_image_url = "https://hololyfe-seeds.s3.amazonaws.com/soramain.png"
 sora_image_urls = [
-  "https://hololyfe-seeds.s3.amazonaws.com/soraimage1.png",
+  "https://hololyfe-seeds.s3.amazonaws.com/soranewimage1.png",
   "https://hololyfe-seeds.s3.amazonaws.com/soraimage2.png",
   "https://hololyfe-seeds.s3.amazonaws.com/soraimage3.png",
-  "https://hololyfe-seeds.s3.amazonaws.com/soraimage4.png",
+  "https://hololyfe-seeds.s3.amazonaws.com/soranewimage4.png",
 ]
 sora_vid_url = "https://hololyfe-seeds.s3.amazonaws.com/soravid.mp4"
 
@@ -153,9 +157,12 @@ Vtuber.create!(
 
 roboco_main_image_url = "https://hololyfe-seeds.s3.amazonaws.com/robocomain.png"
 roboco_image_urls = [
-  "https://hololyfe-seeds.s3.amazonaws.com/robocoimage1.png",
+  "https://hololyfe-seeds.s3.amazonaws.com/roboconewimage1.png",
+  "https://hololyfe-seeds.s3.amazonaws.com/robocoimage4.png",
   "https://hololyfe-seeds.s3.amazonaws.com/robocoimage2.png",
-  "https://hololyfe-seeds.s3.amazonaws.com/robocoimage3.png",
+  "https://hololyfe-seeds.s3.amazonaws.com/robocoimage5.png",
+  "https://hololyfe-seeds.s3.amazonaws.com/robocoimage6.png",
+
 ]
 roboco_vid_url = "https://hololyfe-seeds.s3.amazonaws.com/robocovid.mp4"
 
@@ -234,6 +241,7 @@ Vtuber.create!(
 fubuki_main_image_url = "https://hololyfe-seeds.s3.amazonaws.com/fubukimain.png"
 fubuki_image_urls = [
   "https://hololyfe-seeds.s3.amazonaws.com/fubukiimage1.png",
+  "https://hololyfe-seeds.s3.amazonaws.com/fubukiimage6.png",
   "https://hololyfe-seeds.s3.amazonaws.com/fubukiimage2.png",
   "https://hololyfe-seeds.s3.amazonaws.com/fubukiimage3.png",
   "https://hololyfe-seeds.s3.amazonaws.com/fubukiimage4.png",
@@ -255,6 +263,7 @@ Vtuber.create!(
 matsuri_main_image_url = "https://hololyfe-seeds.s3.amazonaws.com/matsurimain.png"
 matsuri_image_urls = [
   "https://hololyfe-seeds.s3.amazonaws.com/matsuriimage1.png",
+  "https://hololyfe-seeds.s3.amazonaws.com/matsuriimage6.png",
   "https://hololyfe-seeds.s3.amazonaws.com/matsuriimage2.png",
   "https://hololyfe-seeds.s3.amazonaws.com/matsuriimage3.png",
   "https://hololyfe-seeds.s3.amazonaws.com/matsuriimage4.png",
@@ -275,6 +284,7 @@ Vtuber.create!(
 shion_main_image_url = "https://hololyfe-seeds.s3.amazonaws.com/shionmain.png"
 shion_image_urls = [
   "https://hololyfe-seeds.s3.amazonaws.com/shionimage1.png",
+  "https://hololyfe-seeds.s3.amazonaws.com/shionimage5.png",
   "https://hololyfe-seeds.s3.amazonaws.com/shionimage2.png",
   "https://hololyfe-seeds.s3.amazonaws.com/shionimage3.png",
   "https://hololyfe-seeds.s3.amazonaws.com/shionimage4.png",
@@ -295,6 +305,10 @@ Vtuber.create!(
 ayame_main_image_url = "https://hololyfe-seeds.s3.amazonaws.com/ayamemain.png"
 ayame_image_urls = [
   "https://hololyfe-seeds.s3.amazonaws.com/ayameimage1.png",
+  "https://hololyfe-seeds.s3.amazonaws.com/ayameimage2.png",
+  "https://hololyfe-seeds.s3.amazonaws.com/ayameimage3.png",
+  "https://hololyfe-seeds.s3.amazonaws.com/ayameimage4.png",
+  "https://hololyfe-seeds.s3.amazonaws.com/ayameimage5.png",
 ]
 ayame_vid_url = "https://hololyfe-seeds.s3.amazonaws.com/ayamevid.mp4"
 
@@ -331,6 +345,8 @@ Vtuber.create!(
 subaru_main_image_url = "https://hololyfe-seeds.s3.amazonaws.com/subarumain.png"
 subaru_image_urls = [
   "https://hololyfe-seeds.s3.amazonaws.com/subaruimage1.png",
+  "https://hololyfe-seeds.s3.amazonaws.com/subaruimage5.png",
+  "https://hololyfe-seeds.s3.amazonaws.com/subaruimage6.png",
   "https://hololyfe-seeds.s3.amazonaws.com/subaruimage2.png",
   "https://hololyfe-seeds.s3.amazonaws.com/subaruimage3.png",
   "https://hololyfe-seeds.s3.amazonaws.com/subaruimage4.png",
@@ -386,6 +402,7 @@ Vtuber.create!(
 okayu_main_image_url = "https://hololyfe-seeds.s3.amazonaws.com/okayumain.png"
 okayu_image_urls = [
   "https://hololyfe-seeds.s3.amazonaws.com/okayuimage1.png",
+  "https://hololyfe-seeds.s3.amazonaws.com/okayuimage6.png",
   "https://hololyfe-seeds.s3.amazonaws.com/okayuimage2.png",
   "https://hololyfe-seeds.s3.amazonaws.com/okayuimage3.png",
   "https://hololyfe-seeds.s3.amazonaws.com/okayuimage4.png",
@@ -406,6 +423,7 @@ Vtuber.create!(
 korone_main_image_url = "https://hololyfe-seeds.s3.amazonaws.com/koronemain.png"
 korone_image_urls = [
   "https://hololyfe-seeds.s3.amazonaws.com/koroneimage1.png",
+  "https://hololyfe-seeds.s3.amazonaws.com/koroneimage6.png",
   "https://hololyfe-seeds.s3.amazonaws.com/koroneimage2.png",
   "https://hololyfe-seeds.s3.amazonaws.com/koroneimage3.png",
   "https://hololyfe-seeds.s3.amazonaws.com/koroneimage4.png",
@@ -426,7 +444,7 @@ Vtuber.create!(
 flare_main_image_url = "https://hololyfe-seeds.s3.amazonaws.com/flaremain.png"
 flare_image_urls = [
   "https://hololyfe-seeds.s3.amazonaws.com/flareimage1.png",
-  "https://hololyfe-seeds.s3.amazonaws.com/flareimage2.png",
+  "https://hololyfe-seeds.s3.amazonaws.com/flarenewimage2.png",
   "https://hololyfe-seeds.s3.amazonaws.com/flareimage3.png",
 ]
 flare_vid_url = "none"
@@ -444,6 +462,9 @@ Vtuber.create!(
 noel_main_image_url = "https://hololyfe-seeds.s3.amazonaws.com/noelmain.png"
 noel_image_urls = [
   "https://hololyfe-seeds.s3.amazonaws.com/noelimage1.png",
+  "https://hololyfe-seeds.s3.amazonaws.com/noelimage4.png",
+  "https://hololyfe-seeds.s3.amazonaws.com/noelimage5.png",
+  "https://hololyfe-seeds.s3.amazonaws.com/noelimage6.png",
   "https://hololyfe-seeds.s3.amazonaws.com/noelimage2.png",
   "https://hololyfe-seeds.s3.amazonaws.com/noelimage3.png",
 ]
@@ -463,7 +484,7 @@ marine_main_image_url = "https://hololyfe-seeds.s3.amazonaws.com/marinemain.png"
 marine_image_urls = [
   "https://hololyfe-seeds.s3.amazonaws.com/marineimage1.png",
   "https://hololyfe-seeds.s3.amazonaws.com/marineimage2.png",
-  "https://hololyfe-seeds.s3.amazonaws.com/marineimage3.png",
+  "https://hololyfe-seeds.s3.amazonaws.com/marinenewimage3.png",
   "https://hololyfe-seeds.s3.amazonaws.com/marineimage4.png",
   "https://hololyfe-seeds.s3.amazonaws.com/marineimage5.png",
   "https://hololyfe-seeds.s3.amazonaws.com/marineimage6.png",
@@ -485,6 +506,7 @@ Vtuber.create!(
 kanata_main_image_url = "https://hololyfe-seeds.s3.amazonaws.com/kanatamain.png"
 kanata_image_urls = [
   "https://hololyfe-seeds.s3.amazonaws.com/kanataimage1.png",
+  "https://hololyfe-seeds.s3.amazonaws.com/kanataimage6.png",
   "https://hololyfe-seeds.s3.amazonaws.com/kanataimage2.png",
   "https://hololyfe-seeds.s3.amazonaws.com/kanataimage3.png",
   "https://hololyfe-seeds.s3.amazonaws.com/kanataimage4.png",
@@ -505,6 +527,7 @@ Vtuber.create!(
 watame_main_image_url = "https://hololyfe-seeds.s3.amazonaws.com/watamemain.png"
 watame_image_urls = [
   "https://hololyfe-seeds.s3.amazonaws.com/watameimage1.png",
+  "https://hololyfe-seeds.s3.amazonaws.com/watameimage5.png",
   "https://hololyfe-seeds.s3.amazonaws.com/watameimage2.png",
   "https://hololyfe-seeds.s3.amazonaws.com/watameimage3.png",
   "https://hololyfe-seeds.s3.amazonaws.com/watameimage4.png",
@@ -524,6 +547,7 @@ Vtuber.create!(
 luna_main_image_url = "https://hololyfe-seeds.s3.amazonaws.com/lunamain.png"
 luna_image_urls = [
   "https://hololyfe-seeds.s3.amazonaws.com/lunaimage1.png",
+  "https://hololyfe-seeds.s3.amazonaws.com/lunaimage5.png",
   "https://hololyfe-seeds.s3.amazonaws.com/lunaimage2.png",
   "https://hololyfe-seeds.s3.amazonaws.com/lunaimage3.png",
   "https://hololyfe-seeds.s3.amazonaws.com/lunaimage4.png",
@@ -565,6 +589,7 @@ Vtuber.create!(
 nene_main_image_url = "https://hololyfe-seeds.s3.amazonaws.com/nenemain.png"
 nene_image_urls = [
   "https://hololyfe-seeds.s3.amazonaws.com/neneimage1.png",
+  "https://hololyfe-seeds.s3.amazonaws.com/neneimage4.png",
   "https://hololyfe-seeds.s3.amazonaws.com/neneimage2.png",
   "https://hololyfe-seeds.s3.amazonaws.com/neneimage3.png",
 ]
@@ -664,6 +689,7 @@ Vtuber.create!(
 koyori_main_image_url = "https://hololyfe-seeds.s3.amazonaws.com/koyorimain.png"
 koyori_image_urls = [
   "https://hololyfe-seeds.s3.amazonaws.com/koyoriimage1.png",
+  "https://hololyfe-seeds.s3.amazonaws.com/koyoriimage3.png",
   "https://hololyfe-seeds.s3.amazonaws.com/koyoriimage2.png",
 ]
 koyori_vid_url = "https://hololyfe-seeds.s3.amazonaws.com/koyorivid.mp4"
@@ -685,6 +711,7 @@ Vtuber.create!(
 iroha_main_image_url = "https://hololyfe-seeds.s3.amazonaws.com/irohamain.png"
 iroha_image_urls = [
   "https://hololyfe-seeds.s3.amazonaws.com/irohaimage1.png",
+  "https://hololyfe-seeds.s3.amazonaws.com/irohaimage3.png",
   "https://hololyfe-seeds.s3.amazonaws.com/irohaimage2.png",
 ]
 iroha_vid_url = "https://hololyfe-seeds.s3.amazonaws.com/irohavid.mp4"
@@ -704,6 +731,7 @@ Vtuber.create!(
 risu_main_image_url = "https://hololyfe-seeds.s3.amazonaws.com/risumain.png"
 risu_image_urls = [
   "https://hololyfe-seeds.s3.amazonaws.com/risuimage1.png",
+  "https://hololyfe-seeds.s3.amazonaws.com/risuimage5.png",
   "https://hololyfe-seeds.s3.amazonaws.com/risuimage2.png",
   "https://hololyfe-seeds.s3.amazonaws.com/risuimage3.png",
   "https://hololyfe-seeds.s3.amazonaws.com/risuimage4.png",
@@ -726,6 +754,7 @@ Vtuber.create!(
 moona_main_image_url = "https://hololyfe-seeds.s3.amazonaws.com/moonamain.png"
 moona_image_urls = [
   "https://hololyfe-seeds.s3.amazonaws.com/moonaimage1.png",
+  "https://hololyfe-seeds.s3.amazonaws.com/moonaimage5.png",
   "https://hololyfe-seeds.s3.amazonaws.com/moonaimage2.png",
   "https://hololyfe-seeds.s3.amazonaws.com/moonaimage3.png",
   "https://hololyfe-seeds.s3.amazonaws.com/moonaimage4.png",
@@ -746,6 +775,7 @@ Vtuber.create!(
 airani_main_image_url = "https://hololyfe-seeds.s3.amazonaws.com/airanimain.png"
 airani_image_urls = [
   "https://hololyfe-seeds.s3.amazonaws.com/airaniimage1.png",
+  "https://hololyfe-seeds.s3.amazonaws.com/airaniimage5.png",
   "https://hololyfe-seeds.s3.amazonaws.com/airaniimage2.png",
   "https://hololyfe-seeds.s3.amazonaws.com/airaniimage3.png",
   "https://hololyfe-seeds.s3.amazonaws.com/airaniimage4.png",
@@ -762,9 +792,11 @@ Vtuber.create!(
   main_vid_url: airani_vid_url,
 )
 
-ollie_main_image_url = "https://hololyfe-seeds.s3.amazonaws.com/olliemain.png"
+ollie_main_image_url = "https://hololyfe-seeds.s3.amazonaws.com/ollienewmain.png"
 ollie_image_urls = [
-  "https://hololyfe-seeds.s3.amazonaws.com/ollieimage1.png",
+  "https://hololyfe-seeds.s3.amazonaws.com/olliemain.png",
+  "https://hololyfe-seeds.s3.amazonaws.com/ollieimage3.png",
+  "https://hololyfe-seeds.s3.amazonaws.com/ollienewimage1.png",
   "https://hololyfe-seeds.s3.amazonaws.com/ollieimage2.png",
 ]
 ollie_vid_url = "none"
@@ -781,8 +813,10 @@ Vtuber.create!(
   main_vid_url: ollie_vid_url,
 )
 
-anya_main_image_url = "https://hololyfe-seeds.s3.amazonaws.com/anyamain.png"
+anya_main_image_url = "https://hololyfe-seeds.s3.amazonaws.com/anyanewmain.png"
 anya_image_urls = [
+  "https://hololyfe-seeds.s3.amazonaws.com/anyamain.png",
+  "https://hololyfe-seeds.s3.amazonaws.com/anyaimage3.png",
   "https://hololyfe-seeds.s3.amazonaws.com/anyaimage1.png",
   "https://hololyfe-seeds.s3.amazonaws.com/anyaimage2.png",
 ]
@@ -800,8 +834,10 @@ Vtuber.create!(
   main_vid_url: anya_vid_url,
 )
 
-reine_main_image_url = "https://hololyfe-seeds.s3.amazonaws.com/reinemain.png"
+reine_main_image_url = "https://hololyfe-seeds.s3.amazonaws.com/reinenewmain.png"
 reine_image_urls = [
+  "https://hololyfe-seeds.s3.amazonaws.com/reinemain.png",
+  "https://hololyfe-seeds.s3.amazonaws.com/reineimage3.png",
   "https://hololyfe-seeds.s3.amazonaws.com/reineimage1.png",
   "https://hololyfe-seeds.s3.amazonaws.com/reineimage2.png",
 ]
@@ -819,9 +855,11 @@ Vtuber.create!(
   main_vid_url: reine_vid_url,
 )
 
-zeta_main_image_url = "https://hololyfe-seeds.s3.amazonaws.com/zetamain.png"
+zeta_main_image_url = "https://hololyfe-seeds.s3.amazonaws.com/zetanewmain.png"
 zeta_image_urls = [
-  "none",
+  "https://hololyfe-seeds.s3.amazonaws.com/zetamain.png",
+  "https://hololyfe-seeds.s3.amazonaws.com/zetaimage2.png",
+  "https://hololyfe-seeds.s3.amazonaws.com/zetaimage3.png",
 ]
 zeta_vid_url = "none"
 
@@ -836,9 +874,11 @@ Vtuber.create!(
   main_vid_url: zeta_vid_url,
 )
 
-kaela_main_image_url = "https://hololyfe-seeds.s3.amazonaws.com/kaelamain.png"
+kaela_main_image_url = "https://hololyfe-seeds.s3.amazonaws.com/kaelanewmain.png"
 kaela_image_urls = [
-  "none",
+  "https://hololyfe-seeds.s3.amazonaws.com/kaelamain.png",
+  "https://hololyfe-seeds.s3.amazonaws.com/kaelaimage2.png",
+  "https://hololyfe-seeds.s3.amazonaws.com/kaelaimage3.png",
 ]
 kaela_vid_url = "none"
 
@@ -853,9 +893,11 @@ Vtuber.create!(
   main_vid_url: kaela_vid_url,
 )
 
-kobo_main_image_url = "https://hololyfe-seeds.s3.amazonaws.com/kobomain.png"
+kobo_main_image_url = "https://hololyfe-seeds.s3.amazonaws.com/kobonewmain.png"
 kobo_image_urls = [
-  "none",
+  "https://hololyfe-seeds.s3.amazonaws.com/kobomain.png",
+  "https://hololyfe-seeds.s3.amazonaws.com/koboimage2.png",
+  "https://hololyfe-seeds.s3.amazonaws.com/koboimage3.png",
 ]
 kobo_vid_url = "none"
 
@@ -871,7 +913,12 @@ Vtuber.create!(
 
 mori_main_image_url = "https://hololyfe-seeds.s3.amazonaws.com/morimain.png"
 mori_image_urls = [
-  "none",
+  "https://hololyfe-seeds.s3.amazonaws.com/moriimage1.png",
+  "https://hololyfe-seeds.s3.amazonaws.com/moriimage2.png",
+  "https://hololyfe-seeds.s3.amazonaws.com/moriimage3.png",
+  "https://hololyfe-seeds.s3.amazonaws.com/moriimage4.png",
+  "https://hololyfe-seeds.s3.amazonaws.com/moriimage5.png",
+  "https://hololyfe-seeds.s3.amazonaws.com/moriimage6.png",
 ]
 mori_vid_url = "none"
 
@@ -888,7 +935,12 @@ Vtuber.create!(
 
 kiara_main_image_url = "https://hololyfe-seeds.s3.amazonaws.com/kiaramain.png"
 kiara_image_urls = [
-  "none",
+  "https://hololyfe-seeds.s3.amazonaws.com/kiaraimage1.png",
+  "https://hololyfe-seeds.s3.amazonaws.com/kiaraimage2.png",
+  "https://hololyfe-seeds.s3.amazonaws.com/kiaraimage3.png",
+  "https://hololyfe-seeds.s3.amazonaws.com/kiaraimage4.png",
+  "https://hololyfe-seeds.s3.amazonaws.com/kiaraimage5.png",
+  "https://hololyfe-seeds.s3.amazonaws.com/kiaraimage6.png",
 ]
 kiara_vid_url = "none"
 
@@ -904,7 +956,11 @@ Vtuber.create!(
 
 ina_main_image_url = "https://hololyfe-seeds.s3.amazonaws.com/inamain.png"
 ina_image_urls = [
-  "none",
+  "https://hololyfe-seeds.s3.amazonaws.com/inaimage1.png",
+  "https://hololyfe-seeds.s3.amazonaws.com/inaimage2.png",
+  "https://hololyfe-seeds.s3.amazonaws.com/inaimage3.png",
+  "https://hololyfe-seeds.s3.amazonaws.com/inaimage4.png",
+  "https://hololyfe-seeds.s3.amazonaws.com/inaimage5.png",
 ]
 ina_vid_url = "none"
 
@@ -921,7 +977,11 @@ Vtuber.create!(
 
 gura_main_image_url = "https://hololyfe-seeds.s3.amazonaws.com/guramain.png"
 gura_image_urls = [
-  "none",
+  "https://hololyfe-seeds.s3.amazonaws.com/guraimage1.png",
+  "https://hololyfe-seeds.s3.amazonaws.com/guraimage2.png",
+  "https://hololyfe-seeds.s3.amazonaws.com/guraimage3.png",
+  "https://hololyfe-seeds.s3.amazonaws.com/guraimage4.png",
+  "https://hololyfe-seeds.s3.amazonaws.com/guraimage5.png",
 ]
 gura_vid_url = "none"
 
@@ -937,7 +997,10 @@ Vtuber.create!(
 
 amelia_main_image_url = "https://hololyfe-seeds.s3.amazonaws.com/ameliamain.png"
 amelia_image_urls = [
-  "none",
+  "https://hololyfe-seeds.s3.amazonaws.com/ameliaimage1.png",
+  "https://hololyfe-seeds.s3.amazonaws.com/ameliaimage2.png",
+  "https://hololyfe-seeds.s3.amazonaws.com/ameliaimage3.png",
+  "https://hololyfe-seeds.s3.amazonaws.com/ameliaimage4.png",
 ]
 amelia_vid_url = "none"
 
@@ -952,9 +1015,11 @@ Vtuber.create!(
   main_vid_url: amelia_vid_url,
 )
 
-irys_main_image_url = "https://hololyfe-seeds.s3.amazonaws.com/irysmain.png"
+irys_main_image_url = "https://hololyfe-seeds.s3.amazonaws.com/irysnewmain.png"
 irys_image_urls = [
-  "none",
+  "https://hololyfe-seeds.s3.amazonaws.com/irysmain.png",
+  "https://hololyfe-seeds.s3.amazonaws.com/irysimage2.png",
+  "https://hololyfe-seeds.s3.amazonaws.com/irysimage3.png",
 ]
 irys_vid_url = "none"
 
@@ -974,9 +1039,11 @@ Vtuber.create!(
   main_vid_url: irys_vid_url,
 )
 
-fauna_main_image_url = "https://hololyfe-seeds.s3.amazonaws.com/faunamain.png"
+fauna_main_image_url = "https://hololyfe-seeds.s3.amazonaws.com/faunanewmain.png"
 fauna_image_urls = [
-  "none",
+  "https://hololyfe-seeds.s3.amazonaws.com/faunamain.png",
+  "https://hololyfe-seeds.s3.amazonaws.com/faunaimage2.png",
+  "https://hololyfe-seeds.s3.amazonaws.com/faunaimage3.png",
 ]
 fauna_vid_url = "none"
 
@@ -996,9 +1063,11 @@ Vtuber.create!(
   main_vid_url: fauna_vid_url,
 )
 
-kronii_main_image_url = "https://hololyfe-seeds.s3.amazonaws.com/kroniimain.png"
+kronii_main_image_url = "https://hololyfe-seeds.s3.amazonaws.com/kroniinewmain.png"
 kronii_image_urls = [
-  "none",
+  "https://hololyfe-seeds.s3.amazonaws.com/kroniimain.png",
+  "https://hololyfe-seeds.s3.amazonaws.com/kroniiimage2.png",
+  "https://hololyfe-seeds.s3.amazonaws.com/kroniiimage3.png",
 ]
 kronii_vid_url = "none"
 
@@ -1016,9 +1085,11 @@ Vtuber.create!(
   main_vid_url: kronii_vid_url,
 )
 
-mumei_main_image_url = "https://hololyfe-seeds.s3.amazonaws.com/mumeimain.png"
+mumei_main_image_url = "https://hololyfe-seeds.s3.amazonaws.com/mumeinewmain.png" 
 mumei_image_urls = [
-  "none",
+  "https://hololyfe-seeds.s3.amazonaws.com/mumeimain.png",
+  "https://hololyfe-seeds.s3.amazonaws.com/mumeiimage2.png",
+  "https://hololyfe-seeds.s3.amazonaws.com/mumeiimage3.png",
 ]
 mumei_vid_url = "none"
 
@@ -1039,9 +1110,11 @@ Vtuber.create!(
   main_vid_url: mumei_vid_url,
 )
 
-bae_main_image_url = "https://hololyfe-seeds.s3.amazonaws.com/baemain.png"
+bae_main_image_url = "https://hololyfe-seeds.s3.amazonaws.com/baenewmain.png" 
 bae_image_urls = [
-  "none",
+  "https://hololyfe-seeds.s3.amazonaws.com/baemain.png",
+  "https://hololyfe-seeds.s3.amazonaws.com/baeimage2.png",
+  "https://hololyfe-seeds.s3.amazonaws.com/baeimage3.png",
 ]
 bae_vid_url = "none"
 
