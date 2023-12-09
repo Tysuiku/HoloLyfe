@@ -1026,14 +1026,12 @@ irys_vid_url = "none"
 Vtuber.create!(
   name: "IRyS",
   jpname: "IRyS",
-  quote: "Diva of hololive English Project: HOPE IRyS",
-  description: "IRyS, a half-demon, half-angel also known as a Nephilim, once brought hope to \"The Paradise\" during the ancient age. Her full name is ███████ Irys. This current era, riddled with despair and desperation, has brought upon her second awakening. She has arrived to deliver hope, with her feelings put into her lyrics and songs, and determination in her voice.
-  Though she tends to retain her Nephilim form, she is still quite young within her race. With emotion and \"other factors,\" it is possible that her form may lean to either side. When that occurs, she bears a brief change in her appearance.
-  She does not speak of the events that preceded her second awakening. She faces ever forward, perhaps because she is Hope Incarnate, though no one knows for sure. Or could it be...
-  \"The future is not what helps people; the future is made with our own hands.
-  Salvation is hypocrisy. If people know they are to be saved, they simply will not try.
-  From the depths of despair: a glimmer of light, the warmth of recovery.
-  As long as we are with hope, we live. We stand tall.\"",
+  quote: "\"HiRyS, it’s IRyS! Your seiso nephilim here to fill the world with hopium!\"",
+  description: "A Nephilim who was once the embodiment of hope back in \"The Paradise\".
+  While she has left to set off on an adventure, she continues to deliver hope through her lyrics and songs, with determination in her voice.
+  
+  She also bears the precarious and unstable dual nature of a half-demon and half-angel; this phenomenon can be observed on rare occasions, in the form of the most unpredictably
+  yaba—*ahem*, \"surprising\", comments from IRyS herself. Bewildering those around her is but another unexpected charm of her duality.",
   main_image_url: irys_main_image_url,
   image_urls: irys_image_urls,
   main_vid_url: irys_vid_url,
@@ -1050,14 +1048,11 @@ fauna_vid_url = "none"
 Vtuber.create!(
   name: "Ceres Fauna",
   jpname: "セレス・ファウナ",
-  quote: "Keeper of \"Nature\"",
-  description: "A member of the Council and the Keeper of \"Nature,\" the second concept created by the Gods.
-  She has materialized in the mortal realm as a druid in a bid to save nature.
-  She has Kirin blood flowing in her veins, and horns that are made out of the branches of a certain tree; they are NOT deer antlers.
-  
-  \"Nature\" refers to all organic matter on the planet except mankind.
-  It is long said that her whispers, as an avatar of Mother Nature, have healing properties. Whether or not that is true is something only those who have heard them can say.
-  While she is usually affable, warm, and slightly mischievous, any who anger her will bear the full brunt of Nature's fury.",
+  quote: "\"Konfauna~ Your gaming idol kirin Ceres Fauna is here!\"",
+  description: "The Keeper of Nature, a druidic kirin who appeared on the internet to win over humans and convince them to return to nature.
+
+  She’ll attempt to charm you with her soft voice, comforting presence, and surprisingly deep knowledge of cursed memes, but be wary, because she has a reputation for turning people into trees.
+  Once you enter her forest, you won’t want to leave.",
   main_image_url: fauna_main_image_url,
   image_urls: fauna_image_urls,
   main_vid_url: fauna_vid_url,
@@ -1074,12 +1069,10 @@ kronii_vid_url = "none"
 Vtuber.create!(
   name: "Ouro Kronii",
   jpname: "オーロ・クロニー",
-  quote: "Warden of \"Time\"",
-  description: "A member of the Council and the Warden of \"Time,\" the third concept birthed by the Gods and the one most intrinsically linked with mankind.
-  None may escape the sands of time and, indeed, most men do not even wish to be freed from her captivity. She picked up the blades almost as a reflex action of sorts, and seems to be enjoying it. Her quiet, aloof personality has never changed over the ages, but she has developed a little bit of haughtiness and sadistic tendencies along the way...
-  
-  Originally, the concept of time was but a cog in the wheel, one which only functioned in tandem with others.
-  Eventually, humans went on to give time individual meanings such as dawn and dusk, making it universal. The humans became enslaved to Time in return for empowering her. In her present form, she has become a sadistic, prideful warden.",
+  quote: "\"Kroniichiwa! It's me, perfection. Also synonymous for Ouro Kronii!\"",
+  description:"Time is an unwavering, precise entity, and its Warden - its overseer - is equally cool and impeccable.
+
+  Occasionally her exquisiteness leads her to decisions and bouts of luck that transcend the understanding of mere mortals. However, even utmost perfection finds no foothold in the face of her mortal enemy—disorder.",
   main_image_url: kronii_main_image_url,
   image_urls: kronii_image_urls,
   main_vid_url: kronii_vid_url,
@@ -1096,15 +1089,11 @@ mumei_vid_url = "none"
 Vtuber.create!(
   name: "Nanashi Mumei",
   jpname: "七詩ムメイ",
-  quote: "Guardian of \"Civilization\"",
-  description: "A member of the Council and the Guardian of \"Civilization,\" a concept crafted by mankind.
-  As a living embodiment of the sum of mankind's efforts—the mark that humans have left on the world—she is far removed from her fellow members, as well as other lifeforms. Due to not being created by the Gods, she was free to choose her own appearance, and decided to make herself owl-like, after the bird that symbolizes wisdom.
-  
-  She is gentle, wise, and an unbelievably hard worker. As a well-traveled vagabond, she is blessed with a wealth of knowledge of the world. She has seen, heard, and experienced so many things that she has forgotten most of them, one of them being her own name.
-  
-  For some reason, she seems to project a rather pitiable aura. Perhaps this is in part thanks to the loneliness she has often felt in her perennial travels. That is what gave her the idea of making her own friend out of a material that was indispensable to the development of human civilization: paper.
-  
-  \"It may fade and rip, but once a friend, forever a friend.\"",
+  quote: "\"Oh hi! Hoo’s this? Nanashi Mumei!\"",
+  description:"The Guardian of Civilization, a traveling owl who has borne witness to numerous events.
+
+  Even though glimpses of past memories—seen and forgotten throughout her endless journey—occasionally surface, she is now a lovely girl who relishes each and every day. When once she was just an observer, she now enjoys her everyday interactions with civilizations and its people.
+  And soon the ordinary, ever-present daily life, shall also weave itself into the tapestry of civilization.",
   main_image_url: mumei_main_image_url,
   image_urls: mumei_image_urls,
   main_vid_url: mumei_vid_url,
@@ -1121,19 +1110,197 @@ bae_vid_url = "none"
 Vtuber.create!(
   name: "Hakos Baelz",
   jpname: "ハコス・ベールズ",
-  quote: "Chaos",
-  description: "A member of the Council and the very concept of Chaos, birthed by the world, itself.
-  The Gods appointed her Chairperson of the Council, but she mostly takes a hands-off approach as she has yet to accept the decision, much like her fellow members. That said, all of them have no intention of contending; instead to obey.
-  
-  Her mouse-like appearance has deceived many a fool who fails to realize that mice are the harbingers of chaos.
-  Also of note is her wild smile, which she often flashes in her frequent romps.
-  
-  Chaos is confusion and disarray, it is fortune and tragedy, and it is freedom from all the logic and inherent nature of life.
-  She believes that rules are not the be-all and end-all, which is why she has come to break them all.
-  Watching the aftermath is her greatest joy, and so she remains a bystander to the destruction caused by mayhem.",
+  quote: "\"WAZZUP!! It's your worldwide Rat Idol --- Hakos Baelz!\"",
+  description: "Chaos. Mayhem. Entropy..... All in the form of a cute little rat.
+
+  She is a performer looking for her next stage. Occassionally she will get swept up in her own storm, but thats just part of the fun.",
   main_image_url: bae_main_image_url,
   image_urls: bae_image_urls,
   main_vid_url: bae_vid_url,
+)
+
+shiori_main_image_url = "https://hololyfe-seeds.s3.amazonaws.com/shiorimainimage.png"
+shiori_image_urls = [
+  "none",
+]
+shiori_vid_url = "none"
+
+Vtuber.create!(
+  name: "Shiori Novella",
+  jpname: "シオリ・ノヴェラ",
+  quote: "\"Don't you think that's a wonderful story?\"",
+  description: "Driven by her thirst for knowledge, Shiori Novella is \"The Archiver.\" She turns her favorite stories and treasured memories into bookmarks and saves them. By misfortune, she was found to have obtained forbidden knowledge within one of her stories and was imprisoned. But to her, that experience itself is but a fascinating story. In order to continue her search for more stories, she planned and executed a prison break.",
+  main_image_url: shiori_main_image_url,
+  image_urls: shiori_image_urls,
+  main_vid_url: shiori_vid_url,
+)
+
+koseki_main_image_url = "https://hololyfe-seeds.s3.amazonaws.com/kosekimainimage.png"
+koseki_image_urls = [
+  "none",
+]
+koseki_vid_url = "none"
+
+Vtuber.create!(
+  name: "Koseki Bijou",
+  jpname: "古石ビジュー",
+  quote: "\"I hope you'll feel my radiance!\"",
+  description: "Formed from the crystallization of all forms of human emotion, Koseki Bijou is \"The Jewel of Emotions.\"
+  Over years and years, emotions of beauty and filth alike have woven into her under immense pressure, resulting in an unmatched brilliance.
+  Her ancient, mystic brilliance caused strife between the masses of the greedy, who fought over ownership of her. This led to her being imprisoned in secrecy, far from the reach of humans.
+  It seems as though when she encounters people, and particularly their good emotions, her radiance shines even brighter.",
+  main_image_url: koseki_main_image_url,
+  image_urls: koseki_image_urls,
+  main_vid_url: koseki_vid_url,
+)
+
+nerissa_main_image_url = "https://hololyfe-seeds.s3.amazonaws.com/nerissamainimage.png"
+nerissa_image_urls = [
+  "none",
+]
+nerissa_vid_url = "none"
+
+Vtuber.create!(
+  name: "Nerissa Ravencroft",
+  jpname: "ネリッサ・レイヴンクロフト",
+  quote: "\"Ah, the beautiful resonance of idol songs...\"",
+  description: "With a deep love of song, Nerissa Ravencroft is \"The Demon of Sound.\"
+  Her powerful love turned into a dark power that inhabited her singing, giving her music the potential to drive the entire world mad. The gods, fearful of her beautiful voice, decided to seal her away for eternity, but this did not seal away her desire to sing for others. While she was sealed away, she came across Japanese otaku culture, and is currently fascinated by idol songs and penlights. Maybe her life imprisoned wasn't all that bad.",
+  main_image_url: nerissa_main_image_url,
+  image_urls: nerissa_image_urls,
+  main_vid_url: nerissa_vid_url,
+)
+
+fuwawa_main_image_url = "https://hololyfe-seeds.s3.amazonaws.com/fuwawamainimage.png"
+fuwawa_image_urls = [
+  "none",
+]
+fuwawa_vid_url = "none"
+
+Vtuber.create!(
+  name: "Fuwawa Abyssgard",
+  jpname: "フワワ・アビスガード",
+  quote: "\"How about we get you all nice and fluffy~?\"",
+  description: "The fluffy older twin sister of The Demonic Guard Dogs, who were sealed away in The Cell for being a pain in the godly behind, Fuwawa Abyssgard is \"The Fluffy One.\"
+  Her duty is to calmly look after her younger twin sister Mococo and their pet Pero, but that calmness can be short-lived. Ultimately, she is a bouncy and boisterous girl who loves to chat and play.",
+  main_image_url: fuwawa_main_image_url,
+  image_urls: fuwawa_image_urls,
+  main_vid_url: fuwawa_vid_url,
+)
+
+mococo_main_image_url = "https://hololyfe-seeds.s3.amazonaws.com/mococomainimage.png"
+mococo_image_urls = [
+  "none",
+]
+mococo_vid_url = "none"
+
+Vtuber.create!(
+  name: "Mococo Abyssgard",
+  jpname: "モココ・アビスガード",
+  quote: "\"Ehehe, it's play time, whether you're ready or not!\"",
+  description: "The fuzzy younger twin sister of The Demonic Guard Dogs, who were sealed away in The Cell for being a pain in the godly behind, Mococo Abyssgard is \"The Fuzzy One.\"
+  The rambunctious Mococo spent all her time imprisoned watching anime and playing games, often roping her older twin sister Fuwawa and their pet Pero in for more chaotic antics. It's rumored that she took part in the prison break just for the heck of it.",
+  main_image_url: mococo_main_image_url,
+  image_urls: mococo_image_urls,
+  main_vid_url: mococo_vid_url,
+)
+
+hiodoshi_main_image_url = "https://hololyfe-seeds.s3.amazonaws.com/hiodoshimainimage.png"
+hiodoshi_image_urls = [
+  "none",
+]
+hiodoshi_vid_url = "none"
+
+Vtuber.create!(
+  name: "Hiodoshi Ao",
+  jpname: "火威青",
+  quote: "\“My hobby is drawing. And my profession... is also drawing.\”",
+  description: "A manga artist who loves solitude... or so the people around her think.
+  She tries to play herself off as cool and aloof, but beyond the surface she is quite the otaku.
+  She cares a lot about how she is perceived, which is why she is always dressed immaculately in public.
+  How she is at home, though... is a Pandora's box.",
+  main_image_url: hiodoshi_main_image_url,
+  image_urls: hiodoshi_image_urls,
+  main_vid_url: hiodoshi_vid_url,
+)
+
+otonose_main_image_url = "https://hololyfe-seeds.s3.amazonaws.com/otonosemainimage.png"
+otonose_image_urls = [
+  "none",
+]
+otonose_vid_url = "none"
+
+Vtuber.create!(
+  name: "Otonose Kanade",
+  jpname: "音乃瀬奏",
+  quote: "\“I'm here to take my stage!\”",
+  description: "An aspiring musician, whose life also has ups and downs like a crescendo.
+  Music is always by her side.
+  She wears her heart on her sleeve and is capable of putting incredible amounts of effort into the things she enjoys.
+  On the other hand, anything she dislikes immediately puts a frown on her face, showing she still retains a childish side.
+  However, she can be bribed with good food...",
+  main_image_url: otonose_main_image_url,
+  image_urls: otonose_image_urls,
+  main_vid_url: otonose_vid_url,
+)
+
+ichijou_main_image_url = "https://hololyfe-seeds.s3.amazonaws.com/ichijoumainimage.png"
+ichijou_image_urls = [
+  "none",
+]
+ichijou_vid_url = "none"
+
+Vtuber.create!(
+  name: "Ichijou Ririka",
+  jpname: "一条莉々華",
+  quote: "\“Whatever you need, Ichijou Ririka is success, guaranteed!\”",
+  description: "An enterprising entrepreneur on the up-and-up.
+  She started her company on a complete whim, but things seem to be going well so far.
+  She has excellent people skills and is an excellent communicator, which allows her to handle transactions with foreign companies by herself.
+  Her secret to success is a good night's sleep.
+  Meanwhile, she has quite the unruly side when it comes to her private life, and she can be quite lacking when it comes to chores around the home.",
+  main_image_url: ichijou_main_image_url,
+  image_urls: ichijou_image_urls,
+  main_vid_url: ichijou_vid_url,
+)
+
+raden_main_image_url = "https://hololyfe-seeds.s3.amazonaws.com/radenmainimage.png"
+raden_image_urls = [
+  "none",
+]
+raden_vid_url = "none"
+
+Vtuber.create!(
+  name: "Juufuutei Raden",
+  jpname: "儒烏風亭らでん",
+  quote: "\“Care to join me on a journey through a tale?\”",
+  description: "A grandma's girl who covers herself in both tradition and revolution, and sees big dreams in the rakugo world.
+  She loves arts and culture of all kinds—new and old, Eastern and Western.
+  She visits museums so often that she is left penny-pinching the rest of the time. It is most certainly not due to her frequent purchases of alcohol.
+  Through her encounter with rakugo, she has come to enjoy public speaking more than ever, and she is fervishly writing up her own skits.",
+  main_image_url: raden_main_image_url,
+  image_urls: raden_image_urls,
+  main_vid_url: raden_vid_url,
+)
+
+todoroki_main_image_url = "https://hololyfe-seeds.s3.amazonaws.com/todorokimainimage.png"
+todoroki_image_urls = [
+  "none",
+]
+todoroki_vid_url = "none"
+
+Vtuber.create!(
+  name: "Todoroki Hajime",
+  jpname: "轟はじめ",
+  quote: "\“Bam! ...Wow, that actually sounds kinda badass!\”",
+  description: "A jane-of-all-trades seeking to be the #1 badass in the universe.
+  Why the universe? Why \"badass\"? Nobody knows.
+  She's the restless sort and, to no surprise, enjoys physical activities.
+  Also to no surprise, she's not good with tools and equipment, meaning she's a disaster-class in cooking.
+  Her trusty partner Banpen teaches her every day about how to be a badass.",
+  main_image_url: todoroki_main_image_url,
+  image_urls: todoroki_image_urls,
+  main_vid_url: todoroki_vid_url,
 )
 
 kiryucoco_main_image_url = "https://hololyfe-seeds.s3.amazonaws.com/kiryucocomain.png"
