@@ -165,9 +165,44 @@ const VtuberPage = () => {
       return null;
     }
   };
+
+  let backgroundImageStyle = {};
+  if (singleVtuber && singleVtuber[vtuberId]) {
+    backgroundImageStyle = {
+      backgroundImage: `url(${singleVtuber[vtuberId].main_image_url})`,
+    };
+  }
+
+  const triangles = [
+      { id: 1, rotation: 10, top: '10%', left: '10%' },
+      { id: 2, rotation: 75, top: '10%', left: '50%' },
+      { id: 3, rotation: 140, top: '40%', left: '90%' },
+      { id: 4, rotation: 170, top: '55%', left: '30%' },
+      { id: 5, rotation: 260, top: '60%', left: '60%' },
+    ];
   
   return (
     <div className="VtuberPageBox">
+      <div className="VtuberBackground" style={backgroundImageStyle}></div>
+
+      <div className="TrianglePattern">
+        <img src="/trianglePattern.svg" alt="Triangle Pattern" />
+      </div>
+
+      {triangles.map(triangle => (
+        <img
+          key={triangle.id}
+          src="/triangles.svg"
+          alt={`Triangle ${triangle.id}`}
+          style={{
+            position: 'absolute',
+            top: triangle.top,
+            left: triangle.left,
+            transform: `rotate(${triangle.rotation}deg)`
+          }}
+        />
+      ))}
+
       <NavBar />
 
       
